@@ -24,12 +24,94 @@
         </a>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section id="carrito">
+        <h2>CARRITO DE COMPRAS</h2>
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>DETALLE DEL PRODUCTO</th>
+                <th>CANTIDAD</th>
+                <th>TOTAL</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <picture>
+                    <img
+                      src="../images/star-wars/baby-yoda-1.webp"
+                      alt="Figura coleccionable Funko de Grogu de la serie The Mandalorian"
+                    />
+                  </picture>
+                  <h3>BABY YODA BLUEBALL</h3>
+                  <p>STAR WARS</p>
+                  <p>precio: $<span class="precioUnitario">1799.99</span></p>
+                </td>
+                <td>
+                  <label>
+                    <input
+                      type="number"
+                      placeholder="0"
+                      class="quantityInput"
+                    />
+                  </label>
+                </td>
+                <td class="total-cell">0</td>
+                <td class="itemEliminator">❌</td>
+              </tr>
+              <tr>
+                <td>
+                  <picture>
+                    <img
+                      src="../images/pokemon/pidgeotto-1.webp"
+                      alt="Figura coleccionable Pidgeotto de la serie Pokémon"
+                    />
+                  </picture>
+                  <h3>PIDGEOTTO</h3>
+                  <p>POKÉMON</p>
+                  <p>
+                    Precio unitario: $<span class="precioUnitario"
+                      >1799.99</span
+                    >
+                  </p>
+                </td>
+                <td>
+                  <label>
+                    <input
+                      type="number"
+                      placeholder="0"
+                      class="quantityInput"
+                    />
+                  </label>
+                </td>
+                <td class="total-cell">0</td>
+                <td class="itemEliminator">❌</td>
+              </tr>
+              <!-- Puedes agregar más filas aquí para más productos -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section id="resumen">
+        <h2>RESUMEN</h2>
+        <div class="resumenColumna">
+          <p>CANTIDAD DE ELEMENTOS: <span id="cantidadTotal">0</span></p>
+          <p>SUBTOTAL: <span id="subtotal">$0.00</span></p>
+          <p>ENVÍO: $0.00</p>
+          <hr />
+          <p>TOTAL: <span id="total">$0.00</span></p>
+        </div>
+        <button>IR A PAGAR</button>
+      </section>
+    </main>
     <footer>
       <nav>
         <ul>
           <li><a href="shop.html">SHOP</a></li>
-          <li><a href="contact.html">REGISTRARSE</a></li>
+          <li><a href="register.html">REGISTRARSE</a></li>
           <li><a href="login.html">LOGIN</a></li>
           <li><a href="contact.html">CONTACTO</a></li>
         </ul>
