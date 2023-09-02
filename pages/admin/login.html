@@ -3,7 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Login</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <picture>
+        <img
+          src="/images\branding\logo_light_horizontal.svg"
+          alt="Logo de Empresa"
+        />
+      </picture>
+      <nav>
+        <a href="../shop.html">VER TIENDA</a>
+        <a href="admin.html">ADMIN</a>
+        <a href="login.html">SALIR</a>
+        <!-- averiguar a donde lleva el salir  -->
+      </nav>
+    </header>
+    <main>
+      <h1>INGRESAR A MI CUENTA</h1>
+      <section>
+        <div>
+          <label>Email</label>
+
+          <input type="email" placeholder="johndoe@correo.com" />
+        </div>
+        <div>
+          <label>Contraseña</label>
+          <input type="password" placeholder="*********" />
+        </div>
+      </section>
+
+      <div>
+        <button id="buttonRegistro">Ingresar</button>
+        <input type="checkbox" />Recordarme
+        <a href="http://">
+          <p>Olvidé mi contraseña</p>
+        </a>
+        <!-- debo hacer que al apetar olvide mi contraseña vaya a otro enlace-->
+      </div>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="./pages/shop.html">SHOP</a></li>
+          <li><a href="./pages/register.html">REGISTRARSE</a></li>
+          <li><a href="./pages/login.html">LOGIN</a></li>
+          <li><a href="./pages/contact.html">CONTACTO</a></li>
+        </ul>
+        <picture>
+          <img
+            src="/images\branding\isotype.svg"
+            alt="Isotipo de la marca de FunkoShop"
+          />
+        </picture>
+      </nav>
+
+      <section>
+        <p>All rights reserved 2023 - Funkoshop bcopy;</p>
+      </section>
+    </footer>
+  </body>
 </html>
