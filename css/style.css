@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------- Estilos de Index----------------*/
+
+/*---------------- Estilos de Encabezado----------------*/
+.encabezado{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:350px;
+    background-color: #30343F;
+    text-decoration: none;
+    color: #FAFAFF;
+    height: 6em;
+
+
+}
+
+
+.barra_navegacion a{
+    color: #FAFAFF;
+    text-decoration: none;
+    margin-left: 25px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+   line-height: 50px;
+   letter-spacing: 0em;
+    text-align: left;
+}
+/*---------------- Estilos de Banner----------------*/
+.banner{
+height:20em ;
+background-image: url(../images/funkos-banner.webp);
+background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del elemento */
+background-position: 50% 80%;
+
+}
