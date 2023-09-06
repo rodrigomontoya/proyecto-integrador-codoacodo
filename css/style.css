@@ -20,6 +20,10 @@
 
 }
 
+.logo{
+    margin-left:-40px ;
+}
+
 
 .barra_navegacion a{
     color: #FAFAFF;
@@ -35,8 +39,57 @@
 /*---------------- Estilos de Banner----------------*/
 .banner{
 height:20em ;
-background-image: url(../images/funkos-banner.webp);
+background-image: url(../images/funkos-banner.jpg);
 background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del elemento */
 background-position: 50% 80%;
+display:flex;
+align-items: center;
+}
+
+.descripcionBanner{
+    color:#FAFAFF ;
+    font-family: Raleway;
+}
+.descripcionBanner h3{
+font-size: 32px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+margin-left:110px;
+
+
+   
+}
+.descripcionBanner  p{
+font-size: 17px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+margin-left:110px;
+
+}
+
+.botonShop{
+    margin-top:20px;
+}
+.botonShop .boton{
+    color: black !important;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-left: 110px;
+    text-align: center;
+    color:#FAFAFF ;
+    text-decoration: none; 
+     background-color: white;
+    border:10px solid (rgb(15, 15, 15)); 
+    border-left: 43px solid white;
+    border-right: 43px solid white;
+    border-radius: 50px; /* Esquinas redondas */
+    padding: 10px; /* Espacio interior para el contenido */
+  
+   
 
 }
