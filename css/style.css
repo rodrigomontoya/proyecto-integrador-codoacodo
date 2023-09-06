@@ -90,6 +90,24 @@ margin-left:110px;
     border-radius: 50px; /* Esquinas redondas */
     padding: 10px; /* Espacio interior para el contenido */
   
-   
+}
+/*---------------- Estilos de Banner----------------*/
+.productos{
+    display:flex;
+    flex-direction: column;
+    
 
+}
+
+.producto-1{
+    display:flex;
+    flex-direction:row;
+}
+.producto-2{
+    display:flex;
+    flex-direction:row;
+}
+.producto-3{
+    display:flex;
+    flex-direction:row;
 }
