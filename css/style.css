@@ -5,13 +5,15 @@
 }
 
 /*---------------- Estilos de Index----------------*/
-
+.cuerpo{
+    max-width: 100%;
+}
 /*---------------- Estilos de Encabezado----------------*/
 .encabezado{
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    gap:350px;
+    gap:21.9em;
     background-color: #30343F;
     text-decoration: none;
     color: #FAFAFF;
@@ -30,9 +32,8 @@
     text-decoration: none;
     margin-left: 25px;
     font-family: Raleway;
-    font-size: 18px;
-    font-weight: 500;
-   line-height: 50px;
+    font-size: 1.1em;
+   line-height: 3.1em;
    letter-spacing: 0em;
     text-align: left;
 }
@@ -51,21 +52,19 @@ align-items: center;
     font-family: Raleway;
 }
 .descripcionBanner h3{
-font-size: 32px;
-font-weight: 700;
-line-height: 45px;
+font-size: 2em;
+line-height: 1.5em;
 letter-spacing: 0em;
-margin-left:110px;
+margin-left:3.4em;
 
 
    
 }
 .descripcionBanner  p{
-font-size: 17px;
-font-weight: 400;
-line-height: 21px;
+font-size: 1.1em;
+line-height:1.1em;
 letter-spacing: 0em;
-margin-left:110px;
+margin-left:6.2em;
 
 }
 
@@ -75,11 +74,10 @@ margin-left:110px;
 .botonShop .boton{
     color: black !important;
     font-family: Inter;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
+    font-size: 1em;
+    line-height: 1.5em;
     letter-spacing: 0em;
-    margin-left: 110px;
+    margin-left: 6.8em;
     text-align: center;
     color:#FAFAFF ;
     text-decoration: none; 
@@ -95,19 +93,178 @@ margin-left:110px;
 .productos{
     display:flex;
     flex-direction: column;
+   
     
 
 }
+/*---------------- -----Productos--------------------------------*/
+.productos{
+    margin-left:5em;
+    margin-right:5em;
+   
+}
 
+/*---------------- Producto 1----------------*/
 .producto-1{
     display:flex;
     flex-direction:row;
+    align-items: center;
 }
+
+.producto-1-descripcion{
+    width:35em;
+    height:10em;
+}
+.producto-1-detalle h3{
+font-family: Raleway;
+font-size: 2.8em;
+line-height: 2em;
+letter-spacing: 0em;
+text-align: center;
+color: #111111;
+
+}
+.producto-1-linea img{
+    width:35em;
+}
+.producto-1-detalle p{
+font-family: Raleway;
+font-size: 1.2em;
+line-height: 1.8em;
+letter-spacing: 0em;
+text-align: center;
+color: #4F4F4F;
+;
+}
+.producto-1-boton a{
+font-family: Inter;
+margin-left:1em;
+font-size: 1.1em;
+line-height: 3.8em;
+letter-spacing: 0em;
+text-align: center;
+color:#FAFAFF ;
+text-decoration: none; 
+ background-color:#30343F;
+border:10px solid (#30343F); 
+border-radius: 50px; /* Esquinas redondas */
+padding: 10px; /* Espacio interior para el contenido */
+border-left: 1.4em solid #30343F;
+border-right: 1.4em solid #30343F;
+border-top: .1em solid #30343F;
+border-bottom: .1em solid #30343F;
+}
+
+.producto-1-imagen{
+    width: 35em;
+    height: 35em;
+}
+/*---------------Producto 2----------------*/
 .producto-2{
     display:flex;
     flex-direction:row;
+    align-items: center;
 }
+.producto-2-descripcion{
+    width:35em;
+    height:10em;
+}
+.producto-2-detalle h3{
+font-family: Raleway;
+font-size: 2.8em;
+line-height: 2em;
+letter-spacing: 0em;
+text-align: center;
+color: #111111;
+
+}
+.producto-2-linea img{
+    width:35em;
+}
+.producto-2-detalle p{
+font-family: Raleway;
+font-size: 1.2em;
+line-height: 1.8em;
+letter-spacing: 0em;
+text-align: center;
+color: #4F4F4F;
+;
+}
+.producto-2-boton a{
+font-family: Inter;
+margin-left:1em;
+font-size: 1.1em;
+line-height: 3.8em;
+letter-spacing: 0em;
+text-align: center;
+color:#FAFAFF ;
+text-decoration: none; 
+ background-color:#30343F;
+border:10px solid (#30343F); 
+border-radius: 50px; /* Esquinas redondas */
+padding: 10px; /* Espacio interior para el contenido */
+border-left: 1.4em solid #30343F;
+border-right: 1.4em solid #30343F;
+border-top: .1em solid #30343F;
+border-bottom: .1em solid #30343F;
+}
+
+.producto-2-imagen{
+    width: 35em;
+    height: 35em;
+}
+/*---------------- Producto 3 ----------------*/
 .producto-3{
     display:flex;
     flex-direction:row;
+    align-items: center;
+}
+
+.producto-3-descripcion{
+    width:35em;
+    height:10em;
+}
+.producto-3-detalle h3{
+font-family: Raleway;
+font-size: 2.8em;
+line-height: 2em;
+letter-spacing: 0em;
+text-align: center;
+color: #111111;
+
+}
+.producto-3-linea img{
+    width:35em;
+}
+.producto-3-detalle p{
+font-family: Raleway;
+font-size: 1.2em;
+line-height: 1.8em;
+letter-spacing: 0em;
+text-align: center;
+color: #4F4F4F;
+;
+}
+.producto-3-boton a{
+font-family: Inter;
+margin-left:1em;
+font-size: 1.1em;
+line-height: 3.8em;
+letter-spacing: 0em;
+text-align: center;
+color:#FAFAFF ;
+text-decoration: none; 
+ background-color:#30343F;
+border:10px solid (#30343F); 
+border-radius: 50px; /* Esquinas redondas */
+padding: 10px; /* Espacio interior para el contenido */
+border-left: 1.4em solid #30343F;
+border-right: 1.4em solid #30343F;
+border-top: .1em solid #30343F;
+border-bottom: .1em solid #30343F;
+}
+
+.producto-3-imagen{
+    width: 35em;
+    height: 35em;
 }
