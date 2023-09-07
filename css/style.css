@@ -6,7 +6,7 @@
 
 /*---------------- Estilos de Index----------------*/
 .cuerpo{
-    max-width: 100%;
+    min-width: 100%;
 }
 /*---------------- Estilos de Encabezado----------------*/
 .encabezado{
@@ -120,7 +120,7 @@ font-family: Raleway;
 font-size: 2.8em;
 line-height: 2em;
 letter-spacing: 0em;
-text-align: center;
+text-align: left;
 color: #111111;
 
 }
@@ -132,7 +132,7 @@ font-family: Raleway;
 font-size: 1.2em;
 line-height: 1.8em;
 letter-spacing: 0em;
-text-align: center;
+text-align:left;
 color: #4F4F4F;
 ;
 }
@@ -174,7 +174,7 @@ font-family: Raleway;
 font-size: 2.8em;
 line-height: 2em;
 letter-spacing: 0em;
-text-align: center;
+text-align: left;
 color: #111111;
 
 }
@@ -186,7 +186,7 @@ font-family: Raleway;
 font-size: 1.2em;
 line-height: 1.8em;
 letter-spacing: 0em;
-text-align: center;
+text-align: left;
 color: #4F4F4F;
 ;
 }
@@ -229,7 +229,7 @@ font-family: Raleway;
 font-size: 2.8em;
 line-height: 2em;
 letter-spacing: 0em;
-text-align: center;
+text-align: left;
 color: #111111;
 
 }
@@ -241,7 +241,7 @@ font-family: Raleway;
 font-size: 1.2em;
 line-height: 1.8em;
 letter-spacing: 0em;
-text-align: center;
+text-align: left;
 color: #4F4F4F;
 ;
 }
@@ -267,4 +267,26 @@ border-bottom: .1em solid #30343F;
 .producto-3-imagen{
     width: 35em;
     height: 35em;
+}
+
+/*----------------------Ultimo lanzamientos--------------------------------*/
+
+.ult-lanz{
+    margin-left:5em;
+    margin-right:5em;
+}
+
+.ult-lanz ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lanz-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.lanz-1-img{
+    height:;
 }
