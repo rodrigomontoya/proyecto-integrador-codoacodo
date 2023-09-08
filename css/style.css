@@ -58,6 +58,7 @@ letter-spacing: 0em;
 margin-left:3.4em;
 
 
+
    
 }
 .descripcionBanner  p{
@@ -274,19 +275,269 @@ border-bottom: .1em solid #30343F;
 .ult-lanz{
     margin-left:5em;
     margin-right:5em;
+    
+
 }
 
 .ult-lanz ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
 }
 
+.ult-lanz-titulo h2{
+    font-family:Raleway;
+    font-size: 3em;
+    line-height: 1em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 1em;
+    font-weight: 700px;
+     
+}
+
+/*----------------------lanz-1--------------------------*/
 .lanz-1{
     display: flex;
     flex-direction: column;
+    align-items: center;
+
 }
 
-.lanz-1-img{
-    height:;
+.lanz-1 a{
+    text-decoration: none;
 }
+
+.lanz-1-img-text p{
+  color: #ffffff;
+  padding:100px;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 1.em;
+  line-height:normal;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0.1em;
+  border:1em solid (#FF3333); 
+  background-color: #FF3333;
+  padding: 5px; /* Espacio interior para el contenido */
+  border-left-width: 14em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+  border-left-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+  border-left-color: #ffffff; /* Color del borde izquierdo (rojo en este caso) */
+  border-right-width: 5.3em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+  border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+  border-right-color:#ffffff; /* Color del borde izquierdo (rojo en este caso) */
+}
+  
+.lanz-1-img-text{
+    text-decoration: none;
+    list-style-type: none;
+}
+.lanz-1-img img{
+    height: 23em;
+    width: 23em;
+}  
+/*--------descripcion de imagen---------*/
+
+
+.lanz-1-desc .lanz-1-desc-1{
+    color:#333333;
+    font-family: Inter;
+    font-weight:30em;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.lanz-1-desc .lanz-1-desc-2{
+    font-family: Inter;
+    font-size: 1.1em;
+    font-weight: 35em;
+    line-height:1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #111111;
+
+}
+.lanz-1-desc .lanz-1-desc-3{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1.1em;
+    font-weight: 400px;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.lanz-1-desc .lanz-1-desc-4{
+    color: #1D84B5;
+    font-family: Inter;
+    font-size: 0.9em;
+    font-weight: 45em;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/*----------------------lanz-2--------------------------*/
+.lanz-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.lanz-2 a{
+    text-decoration: none;
+}
+.lanz-2-img img{
+    height:23em;
+    width: 23em;
+}   
+.lanz-2-img-text p{
+    color: #ffffff;
+    padding:100px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.em;
+    line-height:normal;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.1em;
+    border:1em solid (#FF3333); 
+    background-color: #FF3333;
+    padding: 5px; /* Espacio interior para el contenido */
+    border-left-width: 14em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-left-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-left-color: #ffffff; /* Color del borde izquierdo (rojo en este caso) */
+    border-right-width: 5.3em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-right-color:#ffffff; /* Color del borde izquierdo (rojo en este caso) */
+  }
+/*--------descripcion de imagen---------*/
+
+
+.lanz-2-desc .lanz-2-desc-1{
+    color:#333333;
+    font-family: Inter;
+    font-weight:30em;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.lanz-2-desc .lanz-2-desc-2{
+    font-family: Inter;
+    font-size: 1.1em;
+    font-weight: 35em;
+    line-height:1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #111111;
+
+}
+.lanz-2-desc .lanz-2-desc-3{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1.1em;
+    font-weight: 400px;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.lanz-2-desc .lanz-2-desc-4{
+    color: #1D84B5;
+    font-family: Inter;
+    font-size: 0.9em;
+    font-weight: 45em;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/*----------------------lanz-3--------------------------*/
+.lanz-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .lanz-3 a{
+        text-decoration: none;
+    }
+
+.lanz-3-img img{
+    height: 23em;
+    width: 23em;
+}   
+.lanz-3-img-text p{
+    color: #ffffff;
+    padding:100px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.em;
+    line-height:normal;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.1em;
+    border:1em solid (#FF3333); 
+    background-color: #FF3333;
+    padding: 5px; /* Espacio interior para el contenido */
+    border-left-width: 14em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-left-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-left-color: #ffffff; /* Color del borde izquierdo (rojo en este caso) */
+    border-right-width: 5.3em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-right-color:#ffffff; /* Color del borde izquierdo (rojo en este caso) */
+  }
+  /*--------descripcion de imagen---------*/
+
+
+.lanz-3-desc .lanz-3-desc-1{
+    color:#333333;
+    font-family: Inter;
+    font-weight:30em;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.lanz-3-desc .lanz-3-desc-2{
+    font-family: Inter;
+    font-size: 1.1em;
+    font-weight: 35em;
+    line-height:1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #111111;
+
+}
+.lanz-3-desc .lanz-3-desc-3{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1.1em;
+    font-weight: 400px;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.lanz-3-desc .lanz-3-desc-4{
+    color: #1D84B5;
+    font-family: Inter;
+    font-size: 0.9em;
+    font-weight: 45em;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/*------------------------footer----------------------------*/
