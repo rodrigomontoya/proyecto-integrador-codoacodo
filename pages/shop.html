@@ -3,18 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"  href="../css/style.css">
     <title>Shop</title>
   </head>
-  <body>
-    <header>
+  <body class="cuerpo">
+    <header class="encabezado">
+      <article class="logo">
+          <a href="../index.html">
       <picture>
-        <a href="../index.html">
         <img
           src="../images\branding\logo_light_horizontal.svg"
           alt="Logo de Empresa"
         />
-      </a>
       </picture>
+      </a>
+      </article>
+      <article class="barra_navegacion">
       <nav>
         <a href="shop.html">SHOP</a>
         <a href="contact.html">CONTACTO</a>
@@ -24,9 +28,10 @@
         </a>
       </nav>
     </header>
-    <aside>
-     
-      <div >
+  </article>
+  <div class="fila-1">
+    <aside class="filtro-busq">
+      <div>
           <div >
               <h1>Buscar</h1>
               <input type="text" placeholder="item o categoria">
@@ -59,37 +64,45 @@
               </label>     
       </div>     
     </aside>
-
-  <section >
-
+  <main>
+  <section class="lista-productos" >
+    <article class="prod-1-fila-1">
       <picture >
           <img src="../images\star-wars\trooper-1.webp" alt="star wars trooper-1"></img>
       </picture>
-      <div class="productoDescripcion" >
+      <div class="prod-des-1-fila-1" >
               <h1>STAR WARS</h1>
               <h2>STORMTROOPER LIGHTSABER</h2>
               <p>$ 1799,99</p>
               <p>3 CUOTAS SIN INTERÉS</p>   
-      </div>           
-      <div >
-          <img src="../images/pokemon/pidgeotto-1.webp" alt="pidgeotto pokemon"></img>
       </div> 
-      <div >
+    </article>
+    <article class="prod-2-fila-1">         
+      <picture >
+          <img src="../images/pokemon/pidgeotto-1.webp" alt="pidgeotto pokemon"></img>
+      </picture> 
+      <div class="prod-des-2-fila-1">
               <h1>POKEMON</h1>
               <h2>PIDGEOTTO</h2>
               <p>$ 1799,99</p>
-              <p>3 CUOTAS SIN INTERÉS</p>  \
-      </div>                       
+              <p>3 CUOTAS SIN INTERÉS</p>  
+      </div>
+    </article> 
+    <article class="prod-3-fila-1">                      
       <picture>
           <img src="../images/harry-potter/luna-1.webp" alt="Luna Harry Potter"></img>
       </picture>
-      <div >
+      <div class="prod-des-3-fila-1" >
               <h1>HARRY POTTER</h1>
               <h2>LUNA LOVEGOOD LION MASK</h2>                    
               <p>$ 1799,99</p>
               <p>3 CUOTAS SIN INTERÉS</p>   
-      </div>              
-
+      </div>
+    </article>
+    
+    </div>  
+    <div class="fila-2">
+      <article class="prod-1-fila-2">
       <picture >
           <img src="../images/star-wars/trooper-1.webp" alt="star wars tropa"></img>
       </picture>
@@ -98,7 +111,9 @@
               <h2>STORMTROOPER LIGHTSABER</h2>
               <p>$ 1799,99</p>
               <p>3 CUOTAS SIN INTERÉS</p>   
-      </div>           
+      </div>    
+    </article>
+    <article class="prod-2-fila-2">       
       <picture >
           <img src="../images/pokemon/pidgeotto-1.webp" alt="pidgeotto pokemon"></img>
       </picture> 
@@ -107,7 +122,9 @@
               <h2>PIDGEOTTO</h2>
               <p>$ 1799,99</p>
               <p>3 CUOTAS SIN INTERÉS</p>  
-      </div>                       
+      </div> 
+    </article>
+    <article class="prod-3-fila-2">                      
       <picture >
           <img src="../images/harry-potter/luna-1.webp" alt="Luna Harry Potter"></img>
       </picture>
@@ -116,8 +133,11 @@
               <h2>LUNA LOVEGOOD LION MASK</h2>                    
               <p>$ 1799,99</p>
               <p>3 CUOTAS SIN INTERÉS</p>   
-      </div>              
-
+      </div>  
+    </article>   
+    <div class="fila-3">        
+    </div>
+    <article class="prod-1-fila-3">
       <picture >
           <img src="../images/star-wars/trooper-1.webp" alt="star wars tropa"></img>
       </picture>
@@ -126,7 +146,9 @@
               <h2>STORMTROOPER LIGHTSABER</h2>
               <p>$ 1799,99</p>
               <p>3 CUOTAS SIN INTERÉS</p>   
-      </div>           
+      </div>
+        </article> 
+        <article class="prod-2-fila-3">       
       <picture >
           <img src="../images/pokemon/pidgeotto-1.webp" alt="pidgeotto pokemon"></img>
       </picture> 
@@ -135,7 +157,9 @@
               <h2>PIDGEOTTO</h2>
               <p>$ 1799,99</p>
               <p>3 CUOTAS SIN INTERÉS</p>  
-      </div>                       
+      </div> 
+    </article>
+    <article clas="prod-3-fila-3">                    
       <picture>
           <img src="../images/harry-potter/luna-1.webp" alt="Luna Harry Potter"></img>
       </picture>
@@ -145,19 +169,20 @@
               <p>$ 1799,99</p>
               <p>3 CUOTAS SIN INTERÉS</p>   
       </article>
-      <article>
-      <label>
-          <button><</button>
-          <button>1</button>
-          <button>2</button>
-          <button>...</button>
-          <button>9</button>
-          <button>10</button>
-          <button>></button>
-      </label>
-    </article>              
+    </div>
+  </article>                 
   </section>
-
+   <div class="numeracion-paginas">
+  <label>
+    <button><</button>
+    <button>1</button>
+    <button>2</button>
+    <button>...</button>
+    <button>9</button>
+    <button>10</button>
+    <button>></button>
+</label>
+ </div> 
 </main>
     <footer>
       <nav>
@@ -167,17 +192,16 @@
           <li><a href="login.html">LOGIN</a></li>
           <li><a href="contact.html">CONTACTO</a></li>
         </ul>
-        <picture>
-          <img
-            src="../images\branding\isotype.svg"
-            alt="Isotipo de la marca de FunkoShop"
-          />
-        </picture>
       </nav>
-
-      <section>
+      <section class="copyright">
         <p>All rights reserved 2023 - Funkoshop bcopy;</p>
       </section>
+      <picture class="footer-logo">
+        <img
+          src="../images\branding\isotype.svg"
+          alt="Isotipo de la marca de FunkoShop"
+        />
+      </picture>
     </footer>
   </body>
 </html>
