@@ -589,12 +589,20 @@ ul li a{
 }
 
 /*------------------------------ Estilos de Shop--------------------------*/
-.fila-1{
-    display:flex;
-
-}
+.lista-productos{ 
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
 
 /*-------------------------- ListaProductos -----------------------*/
+.prod-1-fila-1 picture img {
+    height:15em;
+    width:15em;
+
+}
 
 /*-------------------------- ListaProductos-Fila-1 -----------------------*/
 
