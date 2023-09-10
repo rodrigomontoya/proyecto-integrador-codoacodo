@@ -276,7 +276,6 @@ border-bottom: .1em solid #30343F;
     margin-left:5em;
     margin-right:5em;
     margin-bottom:4.5em;
-
 }
 
 .ult-lanz ul{
@@ -335,8 +334,8 @@ border-bottom: .1em solid #30343F;
     list-style-type: none;
 }
 .lanz-1-img img{
-    height: 23em;
-    width: 23em;
+    height: 18em;
+    width: 18em;
 }  
 /*--------descripcion de imagen---------*/
 
@@ -394,8 +393,8 @@ border-bottom: .1em solid #30343F;
     text-decoration: none;
 }
 .lanz-2-img img{
-    height:23em;
-    width: 23em;
+    height:18em;
+    width: 18em;
 }   
 .lanz-2-img-text p{
     color: #ffffff;
@@ -472,8 +471,8 @@ border-bottom: .1em solid #30343F;
     }
 
 .lanz-3-img img{
-    height: 23em;
-    width: 23em;
+    height: 18em;
+    width: 18em;
 }   
 .lanz-3-img-text p{
     color: #ffffff;
