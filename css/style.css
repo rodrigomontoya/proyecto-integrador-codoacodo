@@ -590,17 +590,19 @@ ul li a{
 
 /*------------------------------ Estilos de Shop--------------------------*/
 /*-------------------------- ListaProductos -----------------------*/
-.prod-1-fila-1 picture img {
-    height:5em;
-    width:5em;
+
+.prod-1-fila-1 .prod-1-img {
+    height:8em;
+    width:8em;
 }
-.prod-2-fila-1 picture img {
-    height:5em;
-    width:5em;
+.prod-2-fila-1 .prod-2-img{
+    height:8em;
+    width:8em;
 }
-.prod-3-fila-1 picture img {
-    height:5em;
-    width:5em;
+
+.prod-3-fila-1 .prod-3-img {
+    height:8em;
+    width:8em;
 }
 .prod-1-fila-1 picture img {
     height:15em;
@@ -675,18 +677,175 @@ ul li a{
     width:15em;
 }
 
+
+/*-------------------------- filtro-busq -----------------------*/
+.filtro-busq{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.filtro-buscar h1{
+    color: #111111;
+    font-family:Inter;
+    font-size: 1.6em;
+    font-weight: 40em;
+    line-height: 1.8em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.filtro-ordenar h1{
+    color: #111111;
+    font-family:Inter;
+    font-size: 1.2em;
+    font-weight: 40em;
+    line-height: 1.8em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.filtro-precio h1{
+    color: #111111;
+    font-family:Inter;
+    font-size: 1.3em;
+    font-weight: 40em;
+    line-height: 1.8em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.filtro-precio .minMax{
+    color: #111111;
+    font-family: Inter;
+    font-size: 1.1em;
+    font-weight: 500px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.filtro-buscar input {
+    border:solid 2px;
+    border-color: #30343F;
+    width: 13em;
+    height:2.3em;
+  }
+  .filtro-ordenar input {
+    border:solid 2px;
+    border-color: #30343F;
+    width: 13em;
+    height:2.3em;
+  }
+ .filtro-precio .minMax input {
+    border:solid 2px;
+    border-color: #30343F;
+    width: 3em;
+  }
+.filtro-varios h1{
+    color: #111111;
+    font-family:Inter;
+    font-size: 1.3em;
+    font-weight: 40em;
+    line-height: 1.8em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.filtro-varios .checkboxNuevos{
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: 50em;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.filtrar-varios .checkboxOfertas{
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: 50em;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.filtro-varios .checkboxEdicionEspecial{
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: 50em;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.filtro-varios .checkboxFavoritos{
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: 50em;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 /*-------------------------- ListaProductos-Fila-1 -----------------------*/
 .fila-1{
     display:flex;
+    justify-content: space-evenly;
+    margin-top:3em;
 }
+
+/*-------------------------- Producto-1-----------------------*/
+.prod-des-1-fila-1 .desc-1-fila-1{
+    color:#333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.prod-1-text p {
+    color: #ffffff;
+    padding:100px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.em;
+    line-height:normal;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.1em;
+    border:1em solid (#FF3333); 
+    background-color: #FF3333;
+    padding: 5px; /* Espacio interior para el contenido */
+    border-left-width: 10em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-left-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-left-color: #ffffff; /* Color del borde izquierdo (rojo en este caso) */
+    border-right-width: 2.3em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-right-color:#ffffff; 
+}
+
+/*-------------------------- Producto-1-----------------------*/
+
+/*-------------------------- ListaProductos-Fila-2 -----------------------*/
 .fila-2{
     display:flex;
-   
+    align-items: center;
+    margin-left:24em;  
 }
-
+/*-------------------------- ListaProductos-Fila-3-----------------------*/
 .fila-3{
     display:flex;
-   
+    align-items: center;
+    margin-left:24em; 
 }
 
+/*-------------------------- Numeracion-pagina -----------------------*/
+.numeracion-paginas label {
+    display:flex;
+    justify-content: center;
+    gap:1em;
+}
 
