@@ -589,23 +589,104 @@ ul li a{
 }
 
 /*------------------------------ Estilos de Shop--------------------------*/
-.lista-productos{ 
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        }
-
 /*-------------------------- ListaProductos -----------------------*/
+.prod-1-fila-1 picture img {
+    height:5em;
+    width:5em;
+}
+.prod-2-fila-1 picture img {
+    height:5em;
+    width:5em;
+}
+.prod-3-fila-1 picture img {
+    height:5em;
+    width:5em;
+}
 .prod-1-fila-1 picture img {
     height:15em;
     width:15em;
-
+}
+.prod-2-fila-1 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-3-fila-1 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-1-fila-1 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-2-fila-1 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-3-fila-1 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-1-fila-2 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-2-fila-2 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-3-fila-2 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-1-fila-2 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-2-fila-2 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-3-fila-2 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-1-fila-2 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-2-fila-2 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-3-fila-2 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-1-fila-3 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-2-fila-3 picture img {
+    height:15em;
+    width:15em;
+}
+.prod-3-fila-3 picture img {
+    height:15em;
+    width:15em;
 }
 
 /*-------------------------- ListaProductos-Fila-1 -----------------------*/
+.fila-1{
+    display:flex;
+}
+.fila-2{
+    display:flex;
+   
+}
 
-
+.fila-3{
+    display:flex;
+   
+}
 
 
