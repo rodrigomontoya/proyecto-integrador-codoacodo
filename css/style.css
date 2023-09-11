@@ -793,18 +793,11 @@ ul li a{
     display:flex;
     justify-content: space-evenly;
     margin-top:3em;
+    margin-bottom: 2em;
 }
 
 /*-------------------------- Producto-1-----------------------*/
-.prod-des-1-fila-1 .desc-1-fila-1{
-    color:#333333;
-    font-family: Inter;
-    font-size: 1em;
-    font-weight:normal;
-    line-height: 1.5em;
-    letter-spacing: 0em;
-    text-align: left;
-}
+
 .prod-1-text p {
     color: #ffffff;
     padding:100px;
@@ -825,26 +818,569 @@ ul li a{
     border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
     border-right-color:#ffffff; 
 }
+.prod-des-1-fila-1 .desc-1-fila-1{
+    color:#333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+}
+.prod-des-1-fila-1 .desc-2-fila-1 {
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:bold;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
 
-/*-------------------------- Producto-1-----------------------*/
+}
+.prod-des-1-fila-1 .desc-3-fila-1{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-1-fila-1 .desc-4-fila-1{
+  color: #1D84B5;
+  font-family: Inter;
+  font-size: .8em;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/*-------------------------- Producto-2-----------------------*/
+.prod-2-text p {
+    color: #ffffff;
+    padding:100px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.em;
+    line-height:normal;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.1em;
+    border:1em solid (#FF3333); 
+    background-color: #FF3333;
+    padding: 5px; /* Espacio interior para el contenido */
+    border-left-width: 10em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-left-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-left-color: #ffffff; /* Color del borde izquierdo (rojo en este caso) */
+    border-right-width: 2.3em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-right-color:#ffffff; 
+}
+.prod-des-2-fila-1 .desc-1-fila-1{
+    color:#333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+}
+.prod-des-2-fila-1 .desc-2-fila-1 {
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:bold;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-2-fila-1 .desc-3-fila-1{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-2-fila-1 .desc-4-fila-1{
+  color: #1D84B5;
+  font-family: Inter;
+  font-size: .8em;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/*-------------------------- Producto-3-----------------------*/
+.prod-3-text p {
+    color: #ffffff;
+    padding:100px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.em;
+    line-height:normal;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.1em;
+    border:1em solid (#FF3333); 
+    background-color: #FF3333;
+    padding: 5px; /* Espacio interior para el contenido */
+    border-left-width: 10em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-left-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-left-color: #ffffff; /* Color del borde izquierdo (rojo en este caso) */
+    border-right-width: 2.3em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-right-color:#ffffff; 
+}
+.prod-des-3-fila-1 .desc-1-fila-1{
+    color:#333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+}
+.prod-des-3-fila-1 .desc-2-fila-1 {
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:bold;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-3-fila-1 .desc-3-fila-1{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-3-fila-1 .desc-4-fila-1{
+  color: #1D84B5;
+  font-family: Inter;
+  font-size: .8em;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 
 /*-------------------------- ListaProductos-Fila-2 -----------------------*/
 .fila-2{
     display:flex;
-    align-items: center;
-    margin-left:24em;  
+    justify-content: space-evenly;
+    margin-left:15em;
+    margin-bottom: 2em;
+    
+}
+/*-------------------------- Producto-4-----------------------*/
+
+.prod-1-2-text p {
+    color: #ffffff;
+    padding:100px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.em;
+    line-height:normal;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.1em;
+    border:1em solid (#FF3333); 
+    background-color: #FF3333;
+    padding: 5px; /* Espacio interior para el contenido */
+    border-left-width: 10em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-left-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-left-color: #ffffff; /* Color del borde izquierdo (rojo en este caso) */
+    border-right-width: 2.3em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-right-color:#ffffff; 
+}
+.prod-des-4-fila-2 .desc-1-fila-2 {
+    color:#333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+}
+.prod-des-4-fila-2 .desc-2-fila-2 {
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:bold;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-4-fila-2 .desc-3-fila-2{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-4-fila-2 .desc-4-fila-2{
+  color: #1D84B5;
+  font-family: Inter;
+  font-size: .8em;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/*-------------------------- Producto-5-----------------------*/
+.prod-2-2-text p {
+    color: #ffffff;
+    padding:100px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.em;
+    line-height:normal;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.1em;
+    border:1em solid (#FF3333); 
+    background-color: #FF3333;
+    padding: 5px; /* Espacio interior para el contenido */
+    border-left-width: 10em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-left-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-left-color: #ffffff; /* Color del borde izquierdo (rojo en este caso) */
+    border-right-width: 2.3em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-right-color:#ffffff; 
+}
+.prod-des-5-fila-2 .desc-1-fila-2{
+    color:#333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+}
+.prod-des-5-fila-2 .desc-2-fila-2 {
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:bold;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-5-fila-2 .desc-3-fila-2{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-5-fila-2 .desc-4-fila-2{
+  color: #1D84B5;
+  font-family: Inter;
+  font-size: .8em;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0em;
+  text-align: left;
 }
 /*-------------------------- ListaProductos-Fila-3-----------------------*/
 .fila-3{
     display:flex;
-    align-items: center;
-    margin-left:24em; 
+    justify-content: space-evenly;
+    margin-left:15em; 
+    margin-bottom:5em;
 }
 
+/*-------------------------- Producto-6-----------------------*/
+.prod-3-2-text p {
+    color: #ffffff;
+    padding:100px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.em;
+    line-height:normal;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.1em;
+    border:1em solid (#FF3333); 
+    background-color: #FF3333;
+    padding: 5px; /* Espacio interior para el contenido */
+    border-left-width: 10em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-left-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-left-color: #ffffff; /* Color del borde izquierdo (rojo en este caso) */
+    border-right-width: 2.3em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-right-color:#ffffff;
+}
+.prod-des-6-fila-2 .desc-1-fila-2{
+    color:#333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+}
+.prod-des-6-fila-2 .desc-2-fila-2 {
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:bold;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-6-fila-2 .desc-3-fila-2{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-6-fila-2 .desc-4-fila-2{
+  color: #1D84B5;
+  font-family: Inter;
+  font-size: .8em;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/*-------------------------- Producto-7-----------------------*/
+.prod-1-3-text p {
+    color: #ffffff;
+    padding:100px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.em;
+    line-height:normal;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.1em;
+    border:1em solid (#FF3333); 
+    background-color: #FF3333;
+    padding: 5px; /* Espacio interior para el contenido */
+    border-left-width: 10em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-left-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-left-color: #ffffff; /* Color del borde izquierdo (rojo en este caso) */
+    border-right-width: 2.3em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-right-color:#ffffff; 
+}
+.prod-des-7-fila-3 .desc-1-fila-3{
+    color:#333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+}
+.prod-des-7-fila-3 .desc-2-fila-3 {
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:bold;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-7-fila-3 .desc-3-fila-3{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-7-fila-3 .desc-4-fila-3{
+  color: #1D84B5;
+  font-family: Inter;
+  font-size: .8em;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/*-------------------------- Producto-8-----------------------*/
+.prod-2-3-text p {
+    color: #ffffff;
+    padding:100px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.em;
+    line-height:normal;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.1em;
+    border:1em solid (#FF3333); 
+    background-color: #FF3333;
+    padding: 5px; /* Espacio interior para el contenido */
+    border-left-width: 10em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-left-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-left-color: #ffffff; /* Color del borde izquierdo (rojo en este caso) */
+    border-right-width: 2.3em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-right-color:#ffffff; 
+}
+.prod-des-8-fila-3 .desc-1-fila-3{
+    color:#333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+}
+.prod-des-8-fila-3 .desc-2-fila-3 {
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:bold;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-8-fila-3 .desc-3-fila-3{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-8-fila-3 .desc-4-fila-3{
+  color: #1D84B5;
+  font-family: Inter;
+  font-size: .8em;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/*-------------------------- Producto-9-----------------------*/
+.prod-3-3-text p {
+    color: #ffffff;
+    padding:100px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.em;
+    line-height:normal;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.1em;
+    border:1em solid (#FF3333); 
+    background-color: #FF3333;
+    padding: 5px; /* Espacio interior para el contenido */
+    border-left-width: 10em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-left-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-left-color: #ffffff; /* Color del borde izquierdo (rojo en este caso) */
+    border-right-width: 2.3em; /* Reducir el ancho del borde izquierdo a 1 píxel */
+    border-right-style: solid; /* Establecer el estilo del borde izquierdo como sólido */
+    border-right-color:#ffffff;
+}
+.prod-des-9-fila-3 .desc-1-fila-3{
+    color:#333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+}
+.prod-des-9-fila-3 .desc-2-fila-3{
+    color: #111111;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight:bold;
+    line-height: 1.3em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-9-fila-3 .desc-3-fila-3{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:.5em;
+
+}
+.prod-des-9-fila-3 .desc-4-fila-3{
+  color: #1D84B5;
+  font-family: Inter;
+  font-size: .8em;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0em;
+  text-align: left;
+}
 /*-------------------------- Numeracion-pagina -----------------------*/
 .numeracion-paginas label {
     display:flex;
     justify-content: center;
     gap:1em;
+    margin-bottom: 3em;
+    
 }
 
