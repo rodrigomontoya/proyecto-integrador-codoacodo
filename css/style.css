@@ -1380,7 +1380,22 @@ ul li a{
     display:flex;
     justify-content: center;
     gap:1em;
-    margin-bottom: 3em;
-    
+    margin-bottom: 3em; 
 }
+.numeracion-paginas label button {
+    border: 1px solid #DFE3E8;
+    background: #FFF;  
+    color: #212B36;
+    font-weight: bold;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+
+}
+
+.numeracion-paginas label button:hover {
+    border-color:#FF3333;
+    color:#FF3333;
+}
+
 
