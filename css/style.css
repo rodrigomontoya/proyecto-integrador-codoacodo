@@ -1398,4 +1398,23 @@ ul li a{
     color:#FF3333;
 }
 
+/*------------------------------ Estilos de Cart--------------------------*/
+.carrito h1{
+    color: #111111;
+    font-family: Raleway;
+    font-size: 2em;
+    font-weight:800;
+    line-height: 4em;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+.carrito .subrayado{
+ margin-top:-3.5em;
+}
+.carrito .subrayado img{
+    height:.25em;
+    width: 22em;   
+}
+/*--------------------------- Carrito--------------------*/
 
+/*--------------------------- Resumen--------------------*/
