@@ -1399,14 +1399,19 @@ ul li a{
 }
 
 /*------------------------------ Estilos de Cart--------------------------*/
-.carrito h1{
+.carrito .carrito-titulo{
     color: #111111;
     font-family: Raleway;
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight:800;
-    line-height: 4em;
+    line-height: 2em;
     letter-spacing: 0em;
-    text-align: left; 
+    text-align: left;
+    border-bottom: 5px solid #FF3333;
+    margin-right:30em;
+    white-space: nowrap;
+    margin-top :3em;
+    
 }
 .carrito .subrayado{
  margin-top:-3.5em;
@@ -1416,18 +1421,52 @@ ul li a{
     width: 22em;   
 }
 /*--------------------------- Carrito--------------------*/
+.cart-productos{
+    margin-top:3em;
+}
 
-
-.cart-productos {
+  .cart-prod-fila-1 {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(3, 40%);
+    grid-template-columns: 35% 25% 25% 15% ;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-   
     justify-items: center;
     align-items: center;
+    border:solid  #FAFAFF;
+    border-radius:1em;
+    padding-bottom: 1em;
+    padding-top:1em;
+    box-shadow: 0px 0px 10px 0px #00000040;
+    margin-bottom: 2em;
+
     }
+ .cart-prod-fila-2 {
+     display: grid;
+    grid-template-columns: 35% 25% 25% 15% ;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+    align-items: center;
+    border:solid  #FAFAFF;
+    border-radius:1em;
+    padding-bottom: 1em;
+    padding-top:1em;
+    box-shadow: 0px 0px 10px 0px #00000040;
+    margin-bottom: 2em;
+    }
+ .cart-prod-fila-3 {
+    display: grid;
+    grid-template-columns: 35% 25% 25% 15% ;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+    align-items: center;
+    border:solid  #FAFAFF;
+    border-radius:1em;
+    padding-bottom: 1em;
+    padding-top:1em;
+    box-shadow: 0px 0px 10px 0px #00000040;
+    }   
 
     .container{
      margin-left:5em;
@@ -1478,12 +1517,9 @@ ul li a{
      }
  .carrito img{
     height:10em ;
-    width:10 em;
+    width:10em;
  }
- .carrito .producto-eliminar img{
-    height:1.5em;
-    width: 1.5em;
- }
+
 
  /*--------------------------Carrito-productos--------------------*/
  
@@ -1504,6 +1540,7 @@ ul li a{
     line-height: 1em;
     letter-spacing: 0em;
     text-align: left;
+    white-space: nowrap;
  }
 
 .cart-productos .descripcion .desc-2{
@@ -1514,6 +1551,7 @@ ul li a{
     line-height: 1em;
     letter-spacing: 0em;
     text-align: left;
+    
 }
 
 .cart-productos .descripcion .desc-3{
@@ -1546,11 +1584,27 @@ ul li a{
     text-align: left;
     
 }
-.cart-productos .producto-eliminar img{
-   margin-left:10em;
-}
+.carrito .producto-eliminar img{
+    height:1.5em;
+    width: 1.5em;
+    margin-left:8em;
+    cursor:pointer;
+ }
 
 /*--------------------------- Resumen--------------------*/
 .resumen{
-    margin-top: 20em;
+    margin-top: 5em;
 }
+
+.resumen .resumen-titulo{
+    color: #111111;
+    font-family: Raleway;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    border-bottom: 5px solid #FF3333;
+    margin-right:42.2em;
+}
+
