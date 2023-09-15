@@ -1603,8 +1603,92 @@ ul li a{
     font-weight: 700;
     line-height: 1.5em;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: right;
     border-bottom: 5px solid #FF3333;
-    margin-right:42.2em;
+    margin-left:42.4em;
+    margin-bottom: .7em;
+    
 }
+/*--------------------------- Resumen-descripcion--------------------*/
+.resumen-descripcion {
+    display: grid;
+    grid-template-columns: 50% 15%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    margin-left:45em;
+    border:solid  #FAFAFF;
+    border-radius:1em;
+    box-shadow: 0px 0px 10px 0px #00000040;
+    padding:1.5em;
+    }
+    
+    .resumen-cant-fila-1 { 
+        grid-area: 1 / 1 / 2 / 2;
+     }
+    .cant-fila-1 { 
+        grid-area: 1 / 2 / 2 / 3; 
+    }
+    .resumen-subtotal-fila-2 { 
+        grid-area: 2 / 1 / 3 / 2;
+     }
+    .subtotal-fila-2 { 
+        grid-area: 2 / 2 / 3 / 3; 
+    }
+    .resumen-envio-fila-3{
+         grid-area: 3 / 1 / 4 / 2;
+         }
+    .envio-fila-3 {
+        grid-area: 3 / 2 / 4 / 3;
+     }
+    .resumen-total-fila-4 { 
+        grid-area: 4 / 1 / 5 / 2; 
+    }
+    .total-fila-4 { 
+        grid-area: 4 / 2 / 5 / 3;
+     }
 
+     .resumen-descripcion .desc-titulo{
+        color: #000000;
+        font-family: Inter;
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 1.1em;
+        letter-spacing: 0em;
+        text-align: left;
+        white-space: nowrap;
+     }
+
+     .resumen-descripcion strong{
+       color: #000000;
+       font-family: Inter;
+       font-size: 1.2em;
+       font-weight: 700;
+       line-height: 1.4em;
+       letter-spacing: 0em;
+       text-align: left;
+       white-space: nowrap;
+     }
+
+     .resumen-descripcion .desc-numero{
+        color: #747474;
+        font-family: Inter;
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 1.1em;
+        letter-spacing: 0em;
+        margin-left:10em;
+     }
+
+     .resumen-descripcion span{
+        color: #747474;
+        font-family: Inter;
+        font-size: 1.25em;
+        font-weight: 700;
+        line-height: 1.5em;
+        letter-spacing: 0em;
+        margin-left:7.5em;
+
+
+     }
