@@ -3,18 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="../css/style.css">
     <title>Item</title>
   </head>
-  <body>
-    <header>
+  <body class="cuerpo">
+    <header class="encabezado">
+      <article class="logo">
+          <a href="../index.html">
       <picture>
-        <a href="../index.html">
-          <img
-            src="../images\branding\logo_light_horizontal.svg"
-            alt="Logo de Empresa"
-          />
-        </a>
+        <img
+          src="../images\branding\logo_light_horizontal.svg"
+          alt="Logo de Empresa"
+        />
       </picture>
+      </a>
+      </article>
+      <article class="barra_navegacion">
       <nav>
         <a href="shop.html">SHOP</a>
         <a href="contact.html">CONTACTO</a>
@@ -24,33 +30,40 @@
         </a>
       </nav>
     </header>
-    <main id="indexMain">
-      <article>
+    <main  class="container">
+      <section class="item">
+        <article class="item-img">
         <picture>
           <img
             src="../images/star-wars/baby-yoda-1.webp"
             alt="Figura coleccionable Funko de Baby Yoda"
           />
         </picture>
-        <div>
-          <p>STAR WARS</p>
-          <h4>BABY YODA BLUEBALL</h4>
-          <p>
+      </article>
+        <article class="item-desc">
+          <div class="descripcion-fila-1">
+          <p class="desc-1-fila-1">STAR WARS</p>
+          <h4 class="desc-2-fila-1">BABY YODA BLUEBALL</h4>
+          <p class="desc-3-fila-1">
             Figura coleccionable de Baby Yoda (Grogu) - The Mandalorian Saga,
             edición limitada.
           </p>
-          <p>$ 1.799,99</p>
-          <div>
+          <p class="desc-4-fila-1">$ 1.799,99</p>
+        </div>
+          <div class="cantidad">
             <label>
-              <input type="number" placeholder="0" /><button>
+              <input type="number" placeholder="0" />
+              <button>
                 Agregar al Carrito
               </button>
             </label>
           </div>
-          <p id="cuotas">Ver mótodos de pago - 3 CUOTAS SIN INTERÉS</p>
+          <div class="modos-pago">
+          <p>Ver mótodos de pago - 3 CUOTAS SIN INTERÉS</p>
         </div>
-      </article>
-      <section id="últimosLanzamientos">
+        </article>
+      </section>
+      <section class="productos-relacionados">
         <h2>Últimos Lanzamientos</h2>
         <ul>
           <li>
@@ -115,17 +128,16 @@
           <li><a href="login.html">LOGIN</a></li>
           <li><a href="contact.html">CONTACTO</a></li>
         </ul>
-        <picture>
-          <img
-            src="../images\branding\isotype.svg"
-            alt="Isotipo de la marca de FunkoShop"
-          />
-        </picture>
       </nav>
-
-      <section>
+      <section class="copyright">
         <p>All rights reserved 2023 - Funkoshop bcopy;</p>
       </section>
+      <picture class="footer-logo">
+        <img
+          src="../images\branding\isotype.svg"
+          alt="Isotipo de la marca de FunkoShop"
+        />
+      </picture>
     </footer>
   </body>
 </html>
