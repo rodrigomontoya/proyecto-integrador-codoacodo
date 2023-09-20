@@ -341,7 +341,7 @@ border-bottom: .1em solid #30343F;
     font-family: Inter;
     font-weight:30em;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
     
@@ -351,7 +351,7 @@ border-bottom: .1em solid #30343F;
     font-family: Inter;
     font-size: 1.1em;
     font-weight: 35em;
-    line-height:1.5em;
+    line-height:1.8em;
     letter-spacing: 0em;
     text-align: left;
     color: #111111;
@@ -362,7 +362,7 @@ border-bottom: .1em solid #30343F;
     font-family: Inter;
     font-size: 1.1em;
     font-weight: 400px;
-    line-height: 1.5em;
+    line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
 
@@ -373,7 +373,7 @@ border-bottom: .1em solid #30343F;
     font-family: Inter;
     font-size: 0.9em;
     font-weight: 45em;
-    line-height: 1.5em;
+    line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -416,7 +416,7 @@ color: #ffffff;
     font-family: Inter;
     font-weight:30em;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
     
@@ -426,7 +426,7 @@ color: #ffffff;
     font-family: Inter;
     font-size: 1.1em;
     font-weight: 35em;
-    line-height:1.5em;
+    line-height:1.8em;
     letter-spacing: 0em;
     text-align: left;
     color: #111111;
@@ -437,7 +437,7 @@ color: #ffffff;
     font-family: Inter;
     font-size: 1.1em;
     font-weight: 400px;
-    line-height: 1.5em;
+    line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
 
@@ -448,7 +448,7 @@ color: #ffffff;
     font-family: Inter;
     font-size: 0.9em;
     font-weight: 45em;
-    line-height: 1.5em;
+    line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -489,7 +489,7 @@ color: #ffffff;
     font-family: Inter;
     font-weight:30em;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
     
@@ -499,7 +499,7 @@ color: #ffffff;
     font-family: Inter;
     font-size: 1.1em;
     font-weight: 35em;
-    line-height:1.5em;
+    line-height:1.8em;
     letter-spacing: 0em;
     text-align: left;
     color: #111111;
@@ -510,7 +510,7 @@ color: #ffffff;
     font-family: Inter;
     font-size: 1.1em;
     font-weight: 400px;
-    line-height: 1.5em;
+    line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
 
@@ -521,7 +521,7 @@ color: #ffffff;
     font-family: Inter;
     font-size: 0.9em;
     font-weight: 45em;
-    line-height: 1.5em;
+    line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -1487,7 +1487,7 @@ ul li a{
     font-family: Inter;
     font-size: 1em;
     font-weight: 700;
-    line-height: 1.1en;
+    line-height: 1.1em;
     letter-spacing: 0em;
     text-align: left;
  }
@@ -1772,6 +1772,10 @@ ul li a{
 }
 
 /*----------------------------------Productos-Relacionados-------------------------*/
+.productos-relacionados{
+    margin-bottom: 6em;
+}
+
 .productos-relacionados h2{
     color: #111111;
     font-family: Raleway;
@@ -1798,7 +1802,7 @@ ul li a{
   padding:5px;
   text-decoration: none;
   font-family: Inter;
-  font-size: 1.em;
+  font-size: .9em;
   line-height:normal;
   letter-spacing: 0em;
   text-align: center;
@@ -1813,8 +1817,35 @@ ul li a{
     font-family: Inter;
     font-size: .9em;
     font-weight: 500;
-    line-height: 1.1em;
+    line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
+}
+.productos-relacionados .nombre{
+    color: #111111;
+    font-family: Inter;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1.8em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.productos-relacionados .precio{
+    color: #333333;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.8em;
+    letter-spacing: 0em;
+    text-align: left;
+}
 
+.productos-relacionados .cuotas{
+    color: #1D84B5;
+    font-family: Inter;
+    font-size: .8em;
+    font-weight: 700;
+    line-height: 1.8em;
+    letter-spacing: 0em;
+    text-align: left;
 }
