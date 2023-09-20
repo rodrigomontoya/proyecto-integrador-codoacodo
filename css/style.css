@@ -1365,15 +1365,13 @@ ul li a{
     font-weight:800;
     line-height: 2em;
     letter-spacing: 0em;
-    text-align: left;
-    border-bottom: 5px solid #FF3333;
-    margin-right:36em;
-    white-space: nowrap;
-    margin-top:3em;
-    
+    text-align: left; 
+    margin-top:1em;
 }
-.carrito .subrayado{
- margin-top:-3.5em;
+
+.carrito .carrito-titulo h1{
+    display:inline;
+    border-bottom: 5px solid #FF3333;
 }
 .carrito .subrayado img{
     height:.25em;
@@ -1491,6 +1489,7 @@ ul li a{
     letter-spacing: 0em;
     text-align: left;
  }
+
  .cart-productos .descripcion .desc-1{
     color: #111111;
     font-family: Inter;
@@ -1563,63 +1562,66 @@ ul li a{
     line-height: 1.9em;
     letter-spacing: 0em;
     text-align: right;
+    margin-bottom: .5em;    
+}
+
+.resumen .resumen-titulo h2{
+    display:inline;
     border-bottom: 5px solid #FF3333;
-    margin-left:48.5em;
-    margin-bottom: .7em;
-    
 }
 /*--------------------------- Resumen-descripcion--------------------*/
 .resumen{
     margin-bottom:5em;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
 }
 .resumen-descripcion {
     display: grid;
-    grid-template-columns: 50% 15%;
+    grid-template-columns: 79% 21%;
     grid-template-rows: 25% 25% 25% 25%;
     grid-column-gap:0px;
     grid-row-gap: 0px;
-    align-items: center;
-    margin-left:52em;
     border:solid  #FAFAFF;
     border-radius:1em;
     box-shadow: 0px 0px 10px 0px #00000040;
-    padding:1.5em;
+    padding:1em;
+    width: 34em;
+    height: 11em;
     }
     
     .resumen-cant-fila-1 { 
         grid-area: 1 / 1 / 2 / 2;
-        margin-bottom: 1em;
+      
      }
     .cant-fila-1 { 
         grid-area: 1 / 2 / 2 / 3;
-        margin-bottom: 1em; 
+        
     }
     .resumen-subtotal-fila-2 { 
         grid-area: 2 / 1 / 3 / 2;
-        margin-bottom: 1em;
+     
      }
     .subtotal-fila-2 { 
         grid-area: 2 / 2 / 3 / 3; 
-        margin-bottom: 1em;
+      
     }
     .resumen-envio-fila-3{
          grid-area: 3 / 1 / 4 / 2;
-         margin-bottom: 1em;
+      
          }
     .envio-fila-3 {
         grid-area: 3 / 2 / 4 / 3;
-        margin-bottom: 1em;
+      
        
      }
     .resumen-total-fila-4 { 
         grid-area: 4 / 1 / 5 / 2;
-        border-top: 2px solid #FF3333;
+       
     }
     .total-fila-4 { 
         grid-area: 4 / 2 / 5 / 3;
-        border-top: 2px solid #FF3333;
-        margin-top:3px;
-        padding-right: 12.8rem;
+      
      }
 
      .resumen-descripcion .desc-titulo{
@@ -1651,7 +1653,7 @@ ul li a{
         font-weight: 700;
         line-height: 1.1em;
         letter-spacing: 0em;
-        margin-left:10em;
+       
      }
 
      .resumen-descripcion span{
@@ -1661,7 +1663,19 @@ ul li a{
         font-weight: 700;
         line-height: 1.5em;
         letter-spacing: 0em;
-        margin-left:7.5em;
+       
+     }
+
+
+     .resumen-total-fila-4{
+        border-top: 2px solid #FF3333;
+        line-height:2.5em;
+     }
+
+     .total-fila-4{
+        border-top: 2px solid #FF3333;
+        line-height:2.5em;
+      
      }
 
      .resumen .boton-pagar button{
@@ -1673,8 +1687,7 @@ ul li a{
         letter-spacing: 0em;
         background-color: #FF3333;
         border:solid #ff3333;
-        width: 19.5em;
-        margin-left:32.6em;
+        width: 21.2em;
         margin-top:1em;
         cursor:pointer;
           
@@ -1848,4 +1861,39 @@ ul li a{
     line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
+}
+
+/*---------------------------------------- Seccion-Contacto----------------------------------*/
+.contacto{
+    display:flex;
+    flex-direction: column;
+}
+.cuerpo-carrito{
+    margin-left:5em;
+    margin-right:5em;
+}
+
+.contacto .contacto-titulo{
+    color: #111111;
+    font-family: Raleway;
+    font-size: 2.4em;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+  .contacto .contacto-titulo h1{
+    display:inline;
+    border-bottom: 5px solid #FF3333;
+}
+
+.contacto .contacto-introduccion{
+    color: #4F4F4F;
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: center;
+
 }

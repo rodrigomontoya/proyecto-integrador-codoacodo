@@ -3,18 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="../css/style.css">
     <title>Contact</title>
   </head>
-  <body>
-    <header>
+  <body class="cuerpo">
+    <header class="encabezado">
+      <article class="logo">
+          <a href="../index.html">
       <picture>
-        <a href="../index.html">
-          <img
-            src="../images\branding\logo_light_horizontal.svg"
-            alt="Logo de Empresa"
-          />
-        </a>
+        <img
+          src="../images\branding\logo_light_horizontal.svg"
+          alt="Logo de Empresa"
+        />
       </picture>
+      </a>
+      </article>
+      <article class="barra_navegacion">
       <nav>
         <a href="shop.html">SHOP</a>
         <a href="contact.html">CONTACTO</a>
@@ -24,25 +30,26 @@
         </a>
       </nav>
     </header>
-    <main>
-      <section>
+    <main class="cuerpo-carrito">
         <!-- Contacto -->
-        <article>
+        <section class="contacto">
+          <article class="contacto-titulo">
           <h1>CONTACTO</h1>
-
+          </article>
           <!--Columna1-->
+          <article class="contacto-introduccion">
           <p>
             Nos encantaría que nos des tu opinión sobre nuestro emprendimiento .
             Esto nos permitirá saber si estamos por un buen camino . Asi que no
             lo dudes y comunicate con nosotros, estamos ansiosos por saber que
             estás pensando acerca de nosotros . Hasta te damos la confianza para
-            darnos ideas de ideas nuevos . Recuerda de ideas no hay nada
+            darnos nuevas ideas . Recuerda de ideas no hay nada
             escrito.
           </p>
         </article>
-
-        <article>
-          <form novalidate>
+      </section>
+        <section class="form">
+          <form >
             <div>
               <label>Nombres</label>
               <input type="text" placeholder="Escriba sus Nombres" />
@@ -51,17 +58,14 @@
               <label>Apellidos</label>
               <input
                 type="text"
-                id="validationCustom02"
                 placeholder="Escriba sus Apellidos"
               />
             </div>
             <div>
-              <label for="validationCustomUsername">Email</label>
+              <label >Email</label>
 
               <input
                 type="text"
-                aria-describedby="inputGroupPrepend"
-                required
                 placeholder="Escriba su Email"
               />
             </div>
@@ -101,27 +105,27 @@
               <button type="reset">Limpiar</button>
             </div>
           </form>
-        </article>
-      </section>
+        </section>
+     
     </main>
     <footer>
       <nav>
         <ul>
           <li><a href="shop.html">SHOP</a></li>
-          <li><a href="register.html">INGRESAR</a></li>
+          <li><a href="register.html">REGISTRARSE</a></li>
+          <li><a href="login.html">LOGIN</a></li>
           <li><a href="contact.html">CONTACTO</a></li>
         </ul>
-        <picture>
-          <img
-            src="../images\branding\isotype.svg"
-            alt="Isotipo de la marca de FunkoShop"
-          />
-        </picture>
       </nav>
-
-      <section>
-        <p>All rights reserved 2023 - Funkoshop bcopy;</p>
+      <section class="copyright">
+        <p>All rights reserved 2023 - Funkoshop &copy;</p>
       </section>
+      <picture class="footer-logo">
+        <img
+          src="../images\branding\isotype.svg"
+          alt="Isotipo de la marca de FunkoShop"
+        />
+      </picture>
     </footer>
   </body>
 </html>
