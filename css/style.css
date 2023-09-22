@@ -530,7 +530,7 @@ color: #ffffff;
 
 footer{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     background-color: #30343F;
     height:15em;
 }
@@ -540,7 +540,6 @@ nav ul{
     flex-direction:column;
     margin-top: 6em;
     margin-left:3em;
-    
 }
 
 ul li{
@@ -565,13 +564,14 @@ ul li a{
     font-weight: 35em;
     line-height: 1.3em;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     margin-top: 10.5em;
+    margin-left: 5em;
 }
 
 .footer-logo{
-    margin-top:4em;
-    margin-right:.5em ;
+    margin-top:5em;
+    margin-left:4em;
 }
 
 /*------------------------------ Estilos de Shop--------------------------*/
@@ -1867,6 +1867,7 @@ ul li a{
 .contacto{
     display:flex;
     flex-direction: column;
+    margin-bottom: 3em;
 }
 .cuerpo-carrito{
     margin-left:5em;
@@ -1905,13 +1906,14 @@ ul li a{
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1em;
 }
 .form {
     display: grid;
     grid-template-columns: 40% 40%;
     grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
     justify-items: start;
     }
     
@@ -1980,8 +1982,48 @@ ul li a{
     width: 6em;
 }
 
-.form #caja-comentario {
+.form .div14 textarea {
     border: 2px solid #FF3333; 
     min-height:5em;
+    min-width: 13.7em;
+}
+
+.form .div10 select {
+    width:13.5em;
+}
+
+.boton-terminos{
+    display:flex;
+    justify-content: center;
+    column-gap: 2em;
+    margin-bottom: 3em;
+}
+
+.boton-terminos button{
+    color: #FFFFFF;
+     border: 2px solid  #FF3333;
+     background:#ff3333;
+     padding:.6em;
+     width: 5.5em;
+
+}
+
+.boton-terminos label{
+   color: #1D84B5;
+   font-family: Inter;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 2em;
+    letter-spacing: 0em;
+    text-align: normal;
+}
+
+.boton-terminos input{
+    color: #1F1F1F;
+    width: 1.2em;
+    height: 1.2em;
+    border: 2px solid #1F1F1F;
+    
+
 }
 
