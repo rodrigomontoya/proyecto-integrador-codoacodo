@@ -340,7 +340,7 @@ border-bottom: .1em solid #30343F;
     color:#333333;
     font-family: Inter;
     font-weight:30em;
-    font-size: 1em;
+    font-size: .8em;
     line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
@@ -349,7 +349,7 @@ border-bottom: .1em solid #30343F;
 }
 .lanz-1-desc .lanz-1-desc-2{
     font-family: Inter;
-    font-size: 1.1em;
+    font-size: .9em;
     font-weight: 35em;
     line-height:1.8em;
     letter-spacing: 0em;
@@ -360,7 +360,7 @@ border-bottom: .1em solid #30343F;
 .lanz-1-desc .lanz-1-desc-3{
     color: #333333;
     font-family: Inter;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 400px;
     line-height: 1.8em;
     letter-spacing: 0em;
@@ -371,7 +371,7 @@ border-bottom: .1em solid #30343F;
 .lanz-1-desc .lanz-1-desc-4{
     color: #1D84B5;
     font-family: Inter;
-    font-size: 0.9em;
+    font-size: .8em;
     font-weight: 45em;
     line-height: 1.8em;
     letter-spacing: 0em;
@@ -415,7 +415,7 @@ color: #ffffff;
     color:#333333;
     font-family: Inter;
     font-weight:30em;
-    font-size: 1em;
+    font-size: .9em;
     line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
@@ -424,7 +424,7 @@ color: #ffffff;
 }
 .lanz-2-desc .lanz-2-desc-2{
     font-family: Inter;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 35em;
     line-height:1.8em;
     letter-spacing: 0em;
@@ -435,7 +435,7 @@ color: #ffffff;
 .lanz-2-desc .lanz-2-desc-3{
     color: #333333;
     font-family: Inter;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 400px;
     line-height: 1.8em;
     letter-spacing: 0em;
@@ -446,7 +446,7 @@ color: #ffffff;
 .lanz-2-desc .lanz-2-desc-4{
     color: #1D84B5;
     font-family: Inter;
-    font-size: 0.9em;
+    font-size: .8em;
     font-weight: 45em;
     line-height: 1.8em;
     letter-spacing: 0em;
@@ -488,7 +488,7 @@ color: #ffffff;
     color:#333333;
     font-family: Inter;
     font-weight:30em;
-    font-size: 1em;
+    font-size: .9em;
     line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
@@ -497,7 +497,7 @@ color: #ffffff;
 }
 .lanz-3-desc .lanz-3-desc-2{
     font-family: Inter;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 35em;
     line-height:1.8em;
     letter-spacing: 0em;
@@ -508,7 +508,7 @@ color: #ffffff;
 .lanz-3-desc .lanz-3-desc-3{
     color: #333333;
     font-family: Inter;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 400px;
     line-height: 1.8em;
     letter-spacing: 0em;
@@ -519,7 +519,7 @@ color: #ffffff;
 .lanz-3-desc .lanz-3-desc-4{
     color: #1D84B5;
     font-family: Inter;
-    font-size: 0.9em;
+    font-size: .8em;
     font-weight: 45em;
     line-height: 1.8em;
     letter-spacing: 0em;
@@ -1943,8 +1943,8 @@ ul li a{
 
 }
 .form .terminos{
-  color:#1D84B5;
-  font-family: Inter;
+    color:#1D84B5;
+    font-family: Inter;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5em;
@@ -2020,11 +2020,113 @@ ul li a{
 
 .boton-terminos input{
     color: #1F1F1F;
-    width: 1.2em;
-    height: 1.2em;
+    width: 1.1em;
+    height: 1.1em;
     border: 2px solid #1F1F1F;
     
 
 }
 
 /*---------------------------------------- Seccion-Login----------------------------------*/
+.container-form{
+    display:flex;
+    justify-content: center;
+}
+.login{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 3em;
+}
+.login-titulo h1{
+    color: #111111;
+    font-family: Raleway;
+    font-size: 2.4em;
+    font-weight: 700;
+    line-height: 2.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    display:inline;
+    border-bottom: 5px solid #FF3333;
+}
+
+
+.form-login {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 1.4em;
+    grid-row-gap: 1em;
+    align-items: center;
+    margin-bottom: 1em;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    .div4 { grid-area: 2 / 2 / 3 / 3; }
+    .div5 { grid-area: 3 / 1 / 4 / 2; }
+    .div6 { grid-area: 3 / 2 / 4 / 3; }
+    .div7 { grid-area: 4 / 1 / 5 / 2; }
+    .div8 { grid-area: 4 / 2 / 5 / 3; }
+
+    .form-login  label,input,p{
+        color: #000000;
+        font-family: Inter;
+        font-size: 1.1em;
+        font-weight: 400;
+        line-height: 1.7em;
+        letter-spacing: 0.04em;
+        text-align: left;
+    }
+
+    .form-login .div2 input ,.div4 input{
+        color: #B9B9B9;
+        font-family: Inter;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.2em;
+        letter-spacing: 0.04em;
+        text-align: left;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #FF3333; 
+    }
+
+   .form-login .div6 a, .div8 a{
+    color:#1D84B5;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+   }
+
+   .boton-iniciar-sesion{
+    display:flex;
+    justify-content: center;
+    
+   }
+
+   .boton-iniciar-sesion  button{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: .9em;
+    letter-spacing: 0em;
+    text-align: center;
+    border:2px solid #FF3333;
+    background: #FF3333;
+    padding:.5em;
+    width: 7em;
+    cursor:pointer;
+   }
+
+   .form-login .div5 input{
+    color: #1F1F1F;
+    width: .8em;
+    height: .8em;
+    border: 2px solid #1F1F1F;
+   }
+   

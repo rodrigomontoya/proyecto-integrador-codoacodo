@@ -31,30 +31,29 @@
       </nav>
     </header>
     <main>
-      <div class="login-container">
+      <div class="login">
+        <div class="login-titulo">
         <h1>INICIAR SESIÓN</h1>
-        <form method="GET">
-          <div>
-            <label for="usuario">Nombre de Usuario:</label>
-            <input type="text" id="usuario" name="usuario" required />
-          </div>
-          <div>
-            <label for="contrasena">Contraseña:</label>
-            <input type="password" id="contrasena" name="contrasena" required />
-          </div>
-          <div class="remember-forgot">
-            <label>
-              <input type="checkbox" name="recordar" /> Recordar mi contraseña
-            </label>
-            <a href="recuperar_contrasena.html">¿Olvidaste tu contraseña?</a>
-          </div>
-          <div>
-            <button type="submit">Iniciar Sesión</button>
-          </div>
-        </form>
+      </div>
+      <section class="container-form">
+      <form method="get" class="form-login">
+        <div class="div1"><label for="usuario">Nombre de Usuario: </label> </div>
+        <div class="div2"><input type="text"  placeholder="Escriba su Usuario" name="usuario" required /> </div>
+        <div class="div3"><label for="contrasena">Contraseña:</label> </div>
+        <div class="div4"><input type="password"  placeholder="Escriba su contraseña" name="contrasena" required /> </div>
+        <div class="div5">
+          <label>
+          <input type="checkbox" name="recordar" /> Recordar mi contraseña
+        </label>
+       </div>
+        <div class="div6"> <a href="recuperar-contrasena.html">¿Olvidaste tu contraseña?</a> </div>
+        <div class="div7"><p>¿No tienes una cuenta?</p> </div>
+        <div class="div8"> <a href="register.html">Regístrate aquí</a></div>
+      </form>
+    </section>
 
-        <div class="signup-link">
-          ¿No tienes una cuenta? <a href="register.html">Regístrate aquí</a>
+        <div class="boton-iniciar-sesion">
+          <button type="submit">Entrar</button>
         </div>
       </div>
     </main>
@@ -79,3 +78,5 @@
     </footer>
   </body>
 </html>
+
+
