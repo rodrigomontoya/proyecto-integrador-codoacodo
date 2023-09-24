@@ -724,6 +724,7 @@ ul li a{
     border:solid 2px;
     border-color: #30343F;
     width: 3em;
+    text-align: center;
   }
 .filtro-varios h1{
     color: #111111;
