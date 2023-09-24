@@ -12,13 +12,12 @@
 .encabezado{
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap:21.9em;
+    justify-content: space-around;
+    gap:10em;
     background-color: #30343F;
     text-decoration: none;
     color: #FAFAFF;
     height: 6em;
-
 
 }
 
@@ -27,16 +26,75 @@
 }
 
 
-.barra_navegacion a{
+/* Estilo para el menú principal */
+.menu {
+    display:flex;
+    gap:3.5em;
+    list-style: none;
+    padding: 0;
+    background-color:#30343F;
+  }
+  
+  .menu li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .menu a {
+    display: block;
+    padding-left:10px;
+    padding-right:10px;
+    text-decoration: none;
     color: #FAFAFF;
     text-decoration: none;
-    margin-left: 25px;
     font-family: Raleway;
     font-size: 1.1em;
-   line-height: 3.1em;
-   letter-spacing: 0em;
+    line-height: 2.5em;
+    letter-spacing: 0em;
+    text-align: right;
+    
+}
+  
+  .menu .item-submenu:hover {
+    background-color:#FF3333;
+    transition: .5s;
+  }
+  
+  /* Estilo para el submenú */
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color:#30343F;
+    padding: 0;
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
+  .submenu li {
+    display: block;
+  }
+  
+  .submenu a {
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 5px;
+    padding-top:5px;
+    text-decoration: none;
+    color: #FAFAFF;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 1em;
+    line-height: 3em;
+    letter-spacing: 0em;
     text-align: left;
 }
+  
+  .submenu a:hover {
+    background-color: #30343F;
+  }
+  
 /*---------------- Estilos de Banner----------------*/
 .banner{
 height:20em ;
@@ -535,18 +593,18 @@ footer{
     height:15em;
 }
 
-nav ul{
+ footer nav ul{
     display:flex;
     flex-direction:column;
     margin-top: 6em;
     margin-left:3em;
 }
 
-ul li{
+ footer ul li{
     list-style:none ;
 }
 
-ul li a{
+ footer ul li a{
     color: #FFFFFF;
     text-decoration: none;
     font-family: Raleway;
@@ -557,7 +615,7 @@ ul li a{
     text-align: left;  
 }
 
-.copyright p{
+footer .copyright p{
     color: #FFFFFF;
     font-family: Raleway;
     font-size: 1.2em;
@@ -710,18 +768,21 @@ ul li a{
 
 .filtro-buscar input {
     border:solid 2px;
+    border-radius: 5px;
     border-color: #30343F;
     width: 13em;
     height:2.3em;
   }
   .filtro-ordenar input {
     border:solid 2px;
+    border-radius: 5px;
     border-color: #30343F;
     width: 13em;
     height:2.3em;
   }
  .filtro-precio .minMax input {
     border:solid 2px;
+    border-radius: 5px;
     border-color: #30343F;
     width: 3em;
     text-align: center;

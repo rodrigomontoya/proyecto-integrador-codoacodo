@@ -3,64 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet"  href="../css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Register</title>
   </head>
   <body class="cuerpo">
     <header class="encabezado">
       <article class="logo">
-          <a href="../index.html">
-      <picture>
-        <img
-          src="../images\branding\logo_light_horizontal.svg"
-          alt="Logo de Empresa"
-        />
-      </picture>
-      </a>
+        <a href="../index.html">
+          <picture>
+            <img
+              src="../images\branding\logo_light_horizontal.svg"
+              alt="Logo de Empresa"
+            />
+          </picture>
+        </a>
       </article>
       <article class="barra_navegacion">
-      <nav>
-        <a href="shop.html">SHOP</a>
-        <a href="contact.html">CONTACTO</a>
-        <a href="login.html">LOGIN</a>
-        <a href="cart.html">
-          <img src="../images\icons\cart-icon.svg" alt="Icono Cart" />
-        </a>
-      </nav>
+        <nav>
+          <ul class="menu">
+            <li>
+              <a class="item-submenu" href="/pages/shop.html">SHOP</a>
+              <ul class="submenu">
+                <li>
+                  <a class="item-submenu" href="/pages/shop.html">FUNKOS</a>
+                </li>
+                <li>
+                  <a class="item-submenu" href="/pages/shop.html">REMERAS</a>
+                </li>
+                <li>
+                  <a class="item-submenu" href="/pages/shop.html">LLAVEROS</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="item-submenu" href="/pages/contact.html">CONTACTO</a>
+            </li>
+            <li><a class="item-submenu" href="/pages/login.html">LOGIN</a></li>
+            <li>
+              <a href="/pages/cart.html"
+                ><img src="../images\icons\cart-icon.svg" alt="Icono Cart"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </article>
     </header>
     <main>
       <section class="register">
-      <div class="register-titulo">
-      <h1>REGISTRO DE USUARIO</h1>
-    </div>
-    <section class="container-register">
-    <form  method="get" class="form-register">
-      <div class="div1"> <label for="nombre">Nombre completo:</label> </div>
-      <div class="div2"><input type="text" placeholder="Escriba su Nombre" name="nombre" required /> </div>
-      <div class="div3"> <label for="email" >Correo electrónico:</label>  </div>
-      <div class="div4"> <input type="text" placeholder="Escriba su Correo" required/> </div>
-      <div class="div5"><label for="password">Contraseña:</label> </div>
-      <div class="div6"><input type="password" id="password" name="password" required /> </div>
-      <div class="div7"><label for="confirm_password">Confirmar contraseña:</label></div>
-      <div class="div8"><input type="password" name="confirm_password"  required /> </div>
-      <div class="div9"><label for="edad">Edad:</label>  </div>
-      <div class="div10"><input type="number"  name="edad" required />   </div>
-      <div class="div11"><label for="genero">Género:</label> </div>
-      <div class="div12"> <select  name="genero">
-        <option selected disabled value>Seleccionar</option>
-        <option value="masculino">Masculino</option>
-        <option value="femenino">Femenino</option>
-        <option value="otro">No Binario</option>
-        <option value="otro">Otro</option>
-      </select></div>
-    </form>
-  </section>
-    <div class="boton-register">
-      <button type="submit" >Registrarse</button>
-    </div>
-  </section>
+        <div class="register-titulo">
+          <h1>REGISTRO DE USUARIO</h1>
+        </div>
+        <section class="container-register">
+          <form method="get" class="form-register">
+            <div class="div1"><label for="nombre">Nombre completo:</label></div>
+            <div class="div2">
+              <input
+                type="text"
+                placeholder="Escriba su Nombre"
+                name="nombre"
+                required
+              />
+            </div>
+            <div class="div3">
+              <label for="email">Correo electrónico:</label>
+            </div>
+            <div class="div4">
+              <input type="text" placeholder="Escriba su Correo" required />
+            </div>
+            <div class="div5"><label for="password">Contraseña:</label></div>
+            <div class="div6">
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="div7">
+              <label for="confirm_password">Confirmar contraseña:</label>
+            </div>
+            <div class="div8">
+              <input type="password" name="confirm_password" required />
+            </div>
+            <div class="div9"><label for="edad">Edad:</label></div>
+            <div class="div10">
+              <input type="number" name="edad" required />
+            </div>
+            <div class="div11"><label for="genero">Género:</label></div>
+            <div class="div12">
+              <select name="genero">
+                <option selected disabled value>Seleccionar</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">No Binario</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+          </form>
+        </section>
+        <div class="boton-register">
+          <button type="submit">Registrarse</button>
+        </div>
+      </section>
     </main>
     <footer>
       <nav>
@@ -83,4 +130,3 @@
     </footer>
   </body>
 </html>
-
