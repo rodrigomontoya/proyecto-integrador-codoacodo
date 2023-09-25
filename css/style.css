@@ -861,7 +861,6 @@ footer .copyright p{
 .lista-productos .imagen-normal{
     width:16em;
     height: 16em;
-
 }
 
 .lista-productos .imagen-hover{
@@ -873,16 +872,16 @@ footer .copyright p{
 /* Estilo para ocultar la imagen de hover inicialmente */
 .imagen-hover {
     display: none;
+   
   }
   /* Mostrar la imagen de hover cuando se pasa el mouse sobre el enlace */
   .enlace-imagen:hover .imagen-hover {
     display: inline-block;
-   
+
   }
   /* Ocultar la imagen normal cuando se pasa el mouse sobre el enlace */
   .enlace-imagen:hover .imagen-normal {
     display: none;
-    
   }
 
 
@@ -2313,3 +2312,25 @@ footer .copyright p{
     }
    
 /*-------------------------------------------------------------------------- Querys------------------------------------------*/
+
+  @media screen and (max-width: 575px) {
+    /* Coloca aquí los estilos para teléfonos móviles pequeños */
+   .cuerpo{
+    background-color: green;
+}
+
+  }
+  
+  
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    /* Estilos para teléfonos móviles */
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para tabletas en orientación vertical */
+  }
+  
+
+  @media screen and (min-width: 1200px) {
+    /* Estilos para computadoras de escritorio */
+  }
