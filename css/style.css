@@ -29,7 +29,7 @@
 /* Estilo para el menú principal */
 .menu {
     display:flex;
-    gap:3.5em;
+    gap:2em;
     list-style: none;
     padding: 0;
     background-color:#30343F;
@@ -737,6 +737,13 @@ footer .copyright p{
     text-align: left;
 }
 
+.filtro-buscar{
+    margin-bottom: .5em;
+}
+
+.filtro-ordenar{
+    margin-bottom: .5em;
+}
 .filtro-ordenar h1{
     color: #111111;
     font-family:Inter;
@@ -745,6 +752,10 @@ footer .copyright p{
     line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
+}
+
+.filtro-precio{
+    margin-bottom:.5em;
 }
 .filtro-precio h1{
     color: #111111;
@@ -787,6 +798,8 @@ footer .copyright p{
     width: 3em;
     text-align: center;
   }
+
+  
 .filtro-varios h1{
     color: #111111;
     font-family:Inter;
@@ -795,6 +808,7 @@ footer .copyright p{
     line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
+    margin-bottom: .2em;
 }
 
 .filtro-varios .checkboxNuevos{
@@ -802,7 +816,7 @@ footer .copyright p{
     font-family: Inter;
     font-size: 1em;
     font-weight: 500;
-    line-height: 1.3em;
+    line-height: 2em;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -811,7 +825,7 @@ footer .copyright p{
     font-family: Inter;
     font-size: 1em;
     font-weight: 500;
-    line-height: 1.3em;
+    line-height: 2em;
     letter-spacing: 0em;
     text-align: left;
 
@@ -821,7 +835,7 @@ footer .copyright p{
     font-family: Inter;
     font-size: 1em;
     font-weight: 500;
-    line-height: 1.3em;
+    line-height:2em;
     letter-spacing: 0em;
     text-align: left;
 
@@ -831,7 +845,7 @@ footer .copyright p{
     font-family: Inter;
     font-size: 1em;
     font-weight: 500;
-    line-height: 1.3em;
+    line-height:1.3em;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -844,6 +858,36 @@ footer .copyright p{
     margin-bottom: 2em;
 }
 
+.lista-productos .imagen-normal{
+    width:16em;
+    height: 16em;
+
+}
+
+.lista-productos .imagen-hover{
+    width:16em;
+    height: 16em;
+}
+/*-------------------Animacion de imagenes de productos-------------------*/
+
+/* Estilo para ocultar la imagen de hover inicialmente */
+.imagen-hover {
+    display: none;
+  }
+  /* Mostrar la imagen de hover cuando se pasa el mouse sobre el enlace */
+  .enlace-imagen:hover .imagen-hover {
+    display: inline-block;
+   
+  }
+  /* Ocultar la imagen normal cuando se pasa el mouse sobre el enlace */
+  .enlace-imagen:hover .imagen-normal {
+    display: none;
+    
+  }
+
+
+
+  
 /*-------------------------- Producto-1-----------------------*/
 
 .prod-1-text button {
@@ -860,9 +904,9 @@ footer .copyright p{
     margin-left:13em;
     width:6em;
 }
-.prod-1-fila-1 img{
-    margin-top: -1em;
-}
+
+
+  
 .prod-des-1-fila-1 .desc-1-fila-1{
     color:#333333;
     font-family: Inter;
@@ -920,9 +964,7 @@ footer .copyright p{
     margin-left:13em;
     width:6em;
 }
-.prod-2-fila-1 img{
-    margin-top: -1em;
-}
+
 .prod-des-2-fila-1 .desc-1-fila-1{
     color:#333333;
     font-family: Inter;
@@ -979,9 +1021,7 @@ footer .copyright p{
     margin-left:13em;
     width:6em;
 }
-.prod-3-fila-1 img{
-    margin-top: -1em;
-}
+
 .prod-des-3-fila-1 .desc-1-fila-1{
     color:#333333;
     font-family: Inter;
@@ -1049,9 +1089,7 @@ footer .copyright p{
     margin-left:13em;
     width:6em;
 }
-.prod-1-fila-2 img{
-    margin-top: -1em;
-}
+
 .prod-des-4-fila-2 .desc-1-fila-2 {
     color:#333333;
     font-family: Inter;
@@ -1108,9 +1146,7 @@ footer .copyright p{
     margin-left:13em;
     width:6em;
 }
-.prod-2-fila-2 img{
-    margin-top: -1em;
-}
+
 .prod-des-5-fila-2 .desc-1-fila-2{
     color:#333333;
     font-family: Inter;
@@ -1175,9 +1211,7 @@ footer .copyright p{
     margin-left:13em;
     width:6em;
 }
-.prod-3-fila-2 img{
-    margin-top: -1em;
-}
+
 .prod-des-6-fila-2 .desc-1-fila-2{
     color:#333333;
     font-family: Inter;
@@ -1234,9 +1268,7 @@ footer .copyright p{
     margin-left:13em;
     width:6em;
 }
-.prod-1-fila-3 img{
-    margin-top: -1em;
-}
+
 .prod-des-7-fila-3 .desc-1-fila-3{
     color:#333333;
     font-family: Inter;
@@ -1293,9 +1325,7 @@ footer .copyright p{
     margin-left:13em;
     width:6em;
 }
-.prod-2-fila-3 img{
-    margin-top: -1em;
-}
+
 .prod-des-8-fila-3 .desc-1-fila-3{
     color:#333333;
     font-family: Inter;
@@ -1352,9 +1382,7 @@ footer .copyright p{
     margin-left:13em;
     width:6em;
 }
-.prod-3-fila-3 img{
-    margin-top: -1em;
-}
+
 .prod-des-9-fila-3 .desc-1-fila-3{
     color:#333333;
     font-family: Inter;
@@ -2284,3 +2312,4 @@ footer .copyright p{
         cursor:pointer;
     }
    
+/*-------------------------------------------------------------------------- Querys------------------------------------------*/
