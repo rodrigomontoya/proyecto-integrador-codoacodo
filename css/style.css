@@ -883,10 +883,9 @@ footer .copyright p{
   .enlace-imagen:hover .imagen-normal {
     display: none;
   }
-
-
-
   
+  
+
 /*-------------------------- Producto-1-----------------------*/
 
 .prod-1-text button {
@@ -2313,8 +2312,8 @@ footer .copyright p{
    
 /*-------------------------------------------------------------------------- Querys------------------------------------------*/
 
-  @media screen and (max-width: 575px) {
-    /* Coloca aquí los estilos para teléfonos móviles pequeños */
+  @media screen and (max-width: 480px) {
+    /* Coloca aquí los estilos para teléfonos móviles  */
    .cuerpo{
     background-color: green;
 }
@@ -2322,15 +2321,11 @@ footer .copyright p{
   }
   
   
-  @media screen and (min-width: 576px) and (max-width: 767px) {
-    /* Estilos para teléfonos móviles */
+  @media screen and (min-width: 768px)  {
+    /* Estilos para tablets */
   }
   
-  @media screen and (min-width: 768px) and (max-width: 991px) {
-    /* Estilos para tabletas en orientación vertical */
-  }
-  
-
-  @media screen and (min-width: 1200px) {
+ 
+  @media screen and (min-width: 1024px) {
     /* Estilos para computadoras de escritorio */
   }
