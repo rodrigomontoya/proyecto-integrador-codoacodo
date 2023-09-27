@@ -13,19 +13,21 @@
     <header class="encabezado">
       <article class="logo">
       <a href="index.html" >
-      <picture>
-        <img
-          src="images\branding\logo_light_horizontal.svg"
-          alt="Logo de Empresa"
-        />
-      </picture>
+        <picture>
+          <!-- Imagen para pantallas grandes (mayores o igual a 480px) -->
+          <source class="logo-pc" media="(min-width: 480px)" srcset="images\branding\logo_light_horizontal.svg">
+  
+          <!-- Imagen para pantallas pequeñas (menor a 480px) -->
+          <img class="logo-movil" src="  images\branding\isotype.svg" alt="Logo de Empresa">
+        </picture>
+      
     </a>
   </article>
   <article class="barra_navegacion">
       <nav>
         <ul class="menu">
           <li>
-            <a class="item-submenu"  href="./pages/shop.html">SHOP <img src="../images\icons\Vector 1 (Stroke).svg" alt="Descripción de la imagen"> </a>
+            <a class="item-submenu"  href="./pages/shop.html">SHOP <img src="../images\icons\Vector 1 (Stroke).svg" alt="iamgen-nav-shop"> </a>
             <ul class="submenu">
               <li><a class="item-submenu" href="./pages/shop.html">FUNKOS</a></li>
               <li><a class="item-submenu" href="./pages/shop.html">REMERAS</a></li>
@@ -87,9 +89,7 @@
           <div class="producto-2-boton">
           <a href="./pages/shop.html">VER COLECCIÓN</a>
         </article>
-      
       </section>
-
       <section class="producto-3">
         <article class="producto-3-descripcion">
       <div class="producto-3-detalle">
@@ -191,6 +191,7 @@
         <img src="images\branding\isotype.svg" alt="Isotipo de la marca de FunkoShop">
        </picture>
     </footer>
+    <script>src="./script\script.js"</script>
   </body>
 </html>
 
