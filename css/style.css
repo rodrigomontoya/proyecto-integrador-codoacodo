@@ -2313,24 +2313,56 @@ footer .copyright p{
 /*-------------------------------------------------------------------------- Querys------------------------------------------*/
 
   @media screen and (max-width: 480px) {
+/* Estilos para celulares*/
 
-
-
-
-   
-      /*-------------ocultar logo con letras en pantallas chicas-------- */ 
-    
-      /* Oculta la imagen del logo grande y muestra la imagen móvil */
-      .logo picture:not(:first-child) {
-        display: none;
+/*--------------encabeezado---------------*/
+    .encabezado  {
+        flex-direction: column;
+        gap:15px;
+        align-items:center;
+        height: auto;
+        width: auto;
+       
       }
-    
-  
-      /* Estilos para la imagen móvil del logo */
-      .logo-movil {
-        display: block;
-        max-width: 50em;
+
+      .menu{
+        gap:0px;
+       
       }
+
+      .logo{
+        margin-left:0;
+      }
+     /*-----------------index---------------*/
+      .banner{
+      flex-direction: column;
+      justify-content: center;
+      margin-left:-30px;
+      }
+
+      .banner article{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px;
+        gap:5px;
+      }
+      
+      .descripcionBanner p{
+        margin-top:5px;
+        text-align: center;
+        max-width: 60%;
+      }
+
+      .botonShop{
+        display: flex;
+       justify-content: center;
+       max-width: 80%;
+      }
+
+
+
+
     }
 
     
