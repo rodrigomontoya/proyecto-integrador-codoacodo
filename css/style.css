@@ -2365,6 +2365,7 @@ footer .copyright p{
         display:flex;
         flex-direction:column;
          align-items: center;
+       
     }
  /*-----------------Productos---------------*/
     .productos .producto-1{
@@ -2374,11 +2375,43 @@ footer .copyright p{
      align-items:center;
 
     }
+    .producto-1-descripcion{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:25em;
+        gap:.9em;
+    }
 
   .productos .producto-1-imagen img{
-    height: 25em;
-    width: 25em;
+    height: 26em;
+    width: 26em;
+    margin-right: 1.5em;
+    margin-bottom:-2em;
   }
+
+  .producto-1-descripcion h3 {
+    font-size:1.5em;
+    text-align: center;
+  }
+  .producto-1-descripcion p{
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .producto-1-linea{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+ 
+  }
+  .producto-1-linea img{
+    width:90%;
+    height: 100%;
+   
+     
+  }
+
 
     }
 
