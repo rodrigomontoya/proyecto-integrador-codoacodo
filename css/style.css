@@ -2367,7 +2367,8 @@ footer .copyright p{
          align-items: center;
        
     }
- /*-----------------Productos---------------*/
+ /*---------------------Productos----------------------------------*/
+ /*--------------------Producto-1-----------------*/
     .productos .producto-1{
 
      display:flex;
@@ -2379,10 +2380,13 @@ footer .copyright p{
         display:flex;
         flex-direction:column;
         align-items:center;
-        width:25em;
+        width:24em;
         gap:.9em;
     }
-
+    .productos .producto-1-imagen{
+        width:auto;
+        height: auto;
+       }
   .productos .producto-1-imagen img{
     height: 26em;
     width: 26em;
@@ -2412,8 +2416,122 @@ footer .copyright p{
      
   }
 
+/*----------------------Producto-2-------------------*/
+.productos .producto-2{
 
-    }
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:2em;
+    margin-bottom: 1em;
+
+   }
+   .producto-2-descripcion{
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+       width:24em;
+       gap:.9em;
+   }
+
+   .productos .producto-2-imagen{
+    width:auto;
+    height: auto;
+   }
+ .productos .producto-2-imagen img{
+   height: 26em;
+   width: 26em;
+   
+ }
+
+ .producto-2-descripcion h3 {
+   font-size:1.5em;
+   text-align: center;
+ }
+ .producto-2-descripcion p{
+   font-size: 1.1em;
+   text-align: center;
+ }
+
+ .producto-2-linea{
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+
+ }
+ .producto-2-linea img{
+   width:90%;
+   height: 100%;  
+ }
+/*----------------------Producto-3-------------------*/
+.productos .producto-3{
+
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+    margin-bottom: 5em;
+
+   }
+   .producto-3-descripcion{
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+       width:24em;
+       gap:.9em;
+   }
+   .productos .producto-3-imagen{
+       width:auto;
+       height: auto;
+      }
+ .productos .producto-3-imagen img{
+   height: 26em;
+   width: 26em;
+   margin-bottom:-1em;
+ }
+
+ .producto-3-descripcion h3 {
+   font-size:1.5em;
+   text-align: center;
+ }
+ .producto-3-descripcion p{
+   font-size: 1.1em;
+   text-align: center;
+ }
+
+ .producto-3-linea{
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+
+ }
+ .producto-3-linea img{
+   width:90%;
+   height: 100%;
+  
+    
+ }    
+
+/*----------------------Ultimos-lanz-------------------*/
+.ult-lanz{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ult-lanz-titulo h2{
+    font-size:1.5em;
+    text-align: center;
+    line-height: normal;
+    font-weight:700;
+}
+.ult-lanz ul{
+    flex-direction: column;
+    align-items: center;
+    gap:1em;
+}
+
+
+}
 
     
    
