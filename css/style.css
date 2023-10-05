@@ -2332,7 +2332,12 @@ footer .copyright p{
 
       .logo{
         margin-left:0;
-        padding-top:10px;
+        padding-top:20px;
+        
+      }
+      .logo img{
+        height:3.6em;
+        width:23em;
       }
      /*-----------------index---------------*/
       .banner{
@@ -2516,10 +2521,12 @@ footer .copyright p{
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-left:0em;
+    margin-right: 0em;
 }
 
 .ult-lanz-titulo h2{
-    font-size:1.5em;
+    font-size:1.8em;
     text-align: center;
     line-height: normal;
     font-weight:700;
@@ -2530,6 +2537,52 @@ footer .copyright p{
     gap:1em;
 }
 
+.lanz-1-desc .lanz-1-desc-1,.lanz-1-desc .lanz-1-desc-2,.lanz-1-desc .lanz-1-desc-3,.lanz-1-desc .lanz-1-desc-4{
+    text-align: center;
+}
+.lanz-2-desc .lanz-2-desc-1,.lanz-2-desc .lanz-2-desc-2,.lanz-2-desc .lanz-2-desc-3,.lanz-2-desc .lanz-2-desc-4{
+    text-align: center;
+}
+.lanz-1-desc .lanz-1-desc-1,.lanz-1-desc .lanz-1-desc-2,.lanz-1-desc .lanz-1-desc-3,.lanz-1-desc .lanz-1-desc-4{
+    text-align: center;
+}
+/*----------------------footer-------------------*/
+footer{
+    display:flex;
+    flex-direction:column;
+  align-items: center;
+    height: auto;
+}
+
+footer  nav ul{
+    flex-direction:column;
+   align-items: center;
+   margin-left: 0em;
+   margin-right: 0em;
+   margin-top:3.5em;
+   gap:.8em;
+}
+
+footer .copyright{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:2.5em;
+}
+footer .copyright p{
+ margin-left:0em;
+ margin-right:0em;
+ margin-top: 0em;
+}
+
+footer .footer-logo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-left:0em;
+    margin-top:3em;
+    margin-bottom: 1.5em;
+}
 
 }
 
