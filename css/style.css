@@ -1582,6 +1582,12 @@ footer .copyright p{
     text-align: left;
  }
 
+ .cart-productos .descripcion{
+    display: flex;
+    flex-direction: column;
+    gap:.5em;
+ }
+
  .cart-productos .descripcion .desc-1{
     color: #111111;
     font-family: Inter;
@@ -2656,10 +2662,20 @@ footer .footer-logo{
     gap:0em;
     margin-bottom: 1.5em;
 }
-}
 /*----------------------Seccion-cart------------------*/
-    
-   
+.carrito{
+    display:flex;
+    flex-direction:column;  
+}
+
+.carrito .carrito-titulo{
+    font-size: 1em;
+    white-space: nowrap;
+    text-align: center;
+}
+
+}
+
     
   
   
