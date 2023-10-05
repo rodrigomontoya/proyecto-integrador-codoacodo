@@ -2421,7 +2421,6 @@ footer .copyright p{
      
   }
 
-/*----------------------Producto-2-------------------*/
 .productos .producto-2{
 
     display:flex;
@@ -2583,7 +2582,49 @@ footer .footer-logo{
     margin-top:3em;
     margin-bottom: 1.5em;
 }
+/*----------------------Seccion-shop------------------*/
+.lista-productos{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:1em;
+}
 
+.lista-productos .filtro-busq{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.lista-productos .fila-1,.lista-productos .fila-2,.lista-productos .fila-3{
+    flex-direction:column;
+    align-items:center;
+    margin-left:0em;
+    margin-right: 0em;
+    gap:3em;
+}
+
+.fila-1 .prod-des-1-fila-1,.fila-1 .prod-des-2-fila-1,.fila-1 .prod-des-3-fila-1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.fila-2 .desc-1-fila-2,.fila-2 .desc-2-fila-2,.fila-2 .desc-3-fila-2,.fila-2 .desc-4-fila-2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.fila-3 .desc-1-fila-3,.fila-3 .desc-2-fila-3,.fila-3 .desc-3-fila-3,.fila-3 .desc-4-fila-3{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.numeracion-paginas label{
+    gap:0em;
+    margin-bottom: 1.5em;
+}
 }
 
     
