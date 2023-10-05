@@ -1513,6 +1513,10 @@ footer .copyright p{
     box-shadow: 0px 0px 10px 0px #00000040;
     }   
 
+.cart-prod-fila-3 .div-9{
+   margin-left:-6em;
+}
+
     .container{
      margin-left:5em;
      margin-right:5em;;
@@ -1618,7 +1622,9 @@ footer .copyright p{
     line-height: 1.3em;
     letter-spacing: 0em;
     text-align: center;
-    width: 3.3em;
+    width: 4em;
+    height: 2.5em;
+   
 }
 .cart-productos .producto-total p,span{
     color: #333333;
@@ -1635,6 +1641,31 @@ footer .copyright p{
     width: 1.5em;
     margin-left:8em;
     cursor:pointer;
+ }
+
+ .producto-cantidad{
+    display: flex;
+    gap:.4em;
+    align-items: center;
+ }
+
+ .producto-cantidad .botones-cant{
+    display:flex;
+    flex-direction:column;
+    gap:.3em;
+ }
+
+ .producto-cantidad .botones-cant button{
+    background-color: #F24E1E;
+    border-color: #F24E1E;
+    cursor: pointer;
+ }
+
+ .botones-cant img{
+    width: 1em;
+    height: 1em;
+    padding: .5px;
+    margin-top:2px;
  }
 
 /*--------------------------- Resumen--------------------*/
@@ -2626,7 +2657,7 @@ footer .footer-logo{
     margin-bottom: 1.5em;
 }
 }
-
+/*----------------------Seccion-cart------------------*/
     
    
     
