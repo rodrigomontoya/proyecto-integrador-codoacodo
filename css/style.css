@@ -1625,11 +1625,12 @@ footer .copyright p{
     font-family: Inter;
     font-size: 1.2em;
     font-weight: 700;
-    line-height: 1.3em;
+    line-height:1.5em;
     letter-spacing: 0em;
     text-align: center;
-    width: 4em;
-    height: 2.5em;
+    width: 3.9em;
+    height: 2.1em;
+    text-indent: .2em;
    
 }
 .cart-productos .producto-total p,span{
@@ -1668,7 +1669,7 @@ footer .copyright p{
  }
 
  .botones-cant img{
-    width: 1em;
+    width: 1.1em;
     height: 1em;
     padding: .5px;
     margin-top:2px;
@@ -2672,6 +2673,39 @@ footer .footer-logo{
     font-size: 1em;
     white-space: nowrap;
     text-align: center;
+}
+
+.cart-prod-fila-1{
+    display:none;
+}
+
+.cart-prod-fila-2 .descripcion{
+    gap:.9em;
+    margin-bottom: .6em;
+}
+.producto-cantidad .botones-cant{
+    width:2em;
+    height: 2em;
+}
+.cart-prod-fila-2{
+    display:flex;
+    flex-direction: column;
+}
+.cart-prod-fila-2 .div-5{
+    flex-direction: column;
+}
+.cart-prod-fila-2 .descripcion{
+    flex-direction: column;
+    align-items:center;
+}
+ .div-6 .producto-cantidad input, .div-10 .producto-cantidad input {
+    width: 2.9em;
+    height: 1.7em;
+    text-indent: 0px;
+}
+
+.producto-cantidad .botones-cant{
+    display: flex;
 }
 
 }
