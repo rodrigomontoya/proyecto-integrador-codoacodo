@@ -596,13 +596,15 @@ footer{
  footer nav ul{
     display:flex;
     flex-direction:column;
-    margin-top: 6em;
+    margin-top: 4em;
     margin-left:3em;
+    gap:.5em;
 }
 
  footer ul li{
     list-style:none ;
 }
+
 
  footer ul li a{
     color: #FFFFFF;
@@ -615,6 +617,7 @@ footer{
     text-align: left;  
 }
 
+
 footer .copyright p{
     color: #FFFFFF;
     font-family: Raleway;
@@ -622,9 +625,9 @@ footer .copyright p{
     font-weight: 35em;
     line-height: 1.3em;
     letter-spacing: 0em;
-    text-align: center;
+    text-align: left;
     margin-top: 10.5em;
-    margin-left: 5em;
+    margin-left: 1em;
 }
 
 .footer-logo{
@@ -1628,9 +1631,9 @@ footer .copyright p{
     line-height:1.5em;
     letter-spacing: 0em;
     text-align: center;
-    width: 3.9em;
+    width: 3.5em;
     height: 2.1em;
-    text-indent: .2em;
+    text-indent: .7em;
    
 }
 .cart-productos .producto-total p,span{
@@ -2586,9 +2589,10 @@ footer .copyright p{
 /*----------------------footer-------------------*/
 footer{
     display:flex;
-    flex-direction:column;
-  align-items: center;
+   align-items: center;
     height: auto;
+    gap:.5em;
+    padding-bottom: 1.5em;
 }
 
 footer  nav ul{
@@ -2596,20 +2600,23 @@ footer  nav ul{
    align-items: center;
    margin-left: 0em;
    margin-right: 0em;
-   margin-top:3.5em;
-   gap:.8em;
+   margin-top:2.1em;
+   gap:.5em;
+   margin-left:1em;
 }
 
 footer .copyright{
     display:flex;
     flex-direction:column;
     align-items:center;
-    margin-top:2.5em;
+    margin-top:4em;
+    
 }
 footer .copyright p{
  margin-left:0em;
  margin-right:0em;
- margin-top: 0em;
+ margin-top: 5em;
+ font-size: .8em;
 }
 
 footer .footer-logo{
@@ -2620,6 +2627,13 @@ footer .footer-logo{
     margin-top:3em;
     margin-bottom: 1.5em;
 }
+
+.footer-logo img{
+    width:5.5em;
+    height: 5.5em;
+    margin-right: .8em;
+}
+   
 /*----------------------Seccion-shop------------------*/
 .lista-productos{
     display:flex;
@@ -2673,6 +2687,7 @@ footer .footer-logo{
     font-size: 1em;
     white-space: nowrap;
     text-align: center;
+    margin-top: 2em;
 }
 
 .cart-prod-fila-1{
@@ -2687,16 +2702,24 @@ footer .footer-logo{
     width:2em;
     height: 2em;
 }
+/*----------------------primer-producto------------------*/
 .cart-prod-fila-2{
     display:flex;
     flex-direction: column;
+    gap:1em;
+    margin-bottom:3.5em ;
 }
 .cart-prod-fila-2 .div-5{
     flex-direction: column;
+    gap:.5em;
 }
-.cart-prod-fila-2 .descripcion{
+.cart-productos .descripcion{
     flex-direction: column;
     align-items:center;
+    gap:1em;
+}
+.cart-productos .descripcion .desc-1{
+    font-size: 1.2em;
 }
  .div-6 .producto-cantidad input, .div-10 .producto-cantidad input {
     width: 2.9em;
@@ -2706,9 +2729,57 @@ footer .footer-logo{
 
 .producto-cantidad .botones-cant{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:.6em;
+    width: 4em;
+}
+.producto-cantidad .botones-cant button{
+    width: 3.5em;
+    height: 1.9em;
+}
+
+.cart-prod-fila-2 .div-7 p{
+    font-size: 1.3em;
+}
+.carrito .producto-eliminar img{
+    margin-left:0em;
+}
+
+/*----------------------segundo-producto------------------*/
+
+.cart-prod-fila-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1em;
+}
+.cart-prod-fila-3 .div-9{
+    margin-left: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:.5em;
+    
+}
+/*----------------------resumen------------------*/
+.resumen{
+    align-items: center;
+}
+.resumen .resumen-titulo{
+    font-size:1.3em;
+    margin-bottom:1.1em;
+}
+.resumen-descripcion{
+    width: 21.5em;
+}
+.resumen .boton-pagar button{
+    width: 7em;
+    font-size:1.2em;
 }
 
 }
+
 
     
   
