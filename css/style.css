@@ -1998,7 +1998,7 @@ footer .copyright p{
     flex-direction: column;
     margin-bottom: 3em;
 }
-.cuerpo-carrito{
+.cuerpo-contacto{
     margin-left:5em;
     margin-right:5em;
 }
@@ -2589,20 +2589,22 @@ footer .copyright p{
 /*----------------------footer-------------------*/
 footer{
     display:flex;
-   align-items: center;
+   align-items: flex-start;
     height: auto;
     gap:.5em;
-    padding-bottom: 1.5em;
+    padding-bottom: 1.5em; 
 }
 
 footer  nav ul{
-    flex-direction:column;
-   align-items: center;
+   flex-direction:column;
    margin-left: 0em;
    margin-right: 0em;
    margin-top:2.1em;
    gap:.5em;
    margin-left:1em;
+}
+nav ul  li a{
+    font-size:.9em;
 }
 
 footer .copyright{
@@ -2613,10 +2615,11 @@ footer .copyright{
     
 }
 footer .copyright p{
- margin-left:0em;
+ margin-left:1em;
  margin-right:0em;
- margin-top: 5em;
- font-size: .8em;
+ margin-top: 8.5em;
+ font-size: .6em;
+ white-space: nowrap;
 }
 
 footer .footer-logo{
@@ -2629,8 +2632,8 @@ footer .footer-logo{
 }
 
 .footer-logo img{
-    width:5.5em;
-    height: 5.5em;
+    width:4.5em;
+    height:4.5m;
     margin-right: .8em;
 }
    
@@ -2681,13 +2684,18 @@ footer .footer-logo{
 .carrito{
     display:flex;
     flex-direction:column;  
+    align-items: center;
 }
 
-.carrito .carrito-titulo{
+.carrito .carrito-titulo {
     font-size: 1em;
     white-space: nowrap;
-    text-align: center;
+    text-align: left;
     margin-top: 2em;
+}
+.carrito .carrito-titulo h1{
+    font-size:1.7em;
+  
 }
 
 .cart-prod-fila-1{
@@ -2708,6 +2716,8 @@ footer .footer-logo{
     flex-direction: column;
     gap:1em;
     margin-bottom:3.5em ;
+    padding-left: .5em;
+    padding-right:.5em;
 }
 .cart-prod-fila-2 .div-5{
     flex-direction: column;
@@ -2753,6 +2763,8 @@ footer .footer-logo{
     flex-direction: column;
     align-items: center;
     gap:1em;
+    padding-left: .5em;
+    padding-right:.5em;
 }
 .cart-prod-fila-3 .div-9{
     margin-left: 0em;
@@ -2777,7 +2789,65 @@ footer .footer-logo{
     width: 7em;
     font-size:1.2em;
 }
+/*-------------------------Seccion-Contacto----------------------------------------*/
 
+.cuerpo-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.contacto{
+    align-items: center;
+}
+.cuerpo-contacto .contacto{
+    gap:.5em;
+}
+.contacto .contacto-titulo{
+    font-size: 1.7em;
+}
+
+.form{
+    grid-column-gap:0em;
+}
+.form label{
+    font-size:1em;
+    white-space: nowrap;
+}
+.form input{
+    font-size:.9em;
+}
+.boton-terminos{
+display: flex;
+justify-content: center;
+margin-bottom: 3em;
+align-items: center;
+}
+.botones{
+    display:flex;
+    flex-direction: column;
+    gap:.9em;
+}
+.terminos-container{
+    display:flex;
+    align-items:center;
+}
+.terminos-container .terminos{
+    white-space: nowrap;
+    font-size:.9em;
+}
+/*-------------------------Seccion-Login----------------------------------------*/
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-titulo h1{
+    white-space: nowrap;
+    font-size: 1.7em;
+
+}
+
+/*-------------------------Seccion-Item----------------------------------------*/
 }
 
 
