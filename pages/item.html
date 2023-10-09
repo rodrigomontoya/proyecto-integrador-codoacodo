@@ -30,7 +30,12 @@
         <nav>
           <ul class="menu">
             <li>
-              <a class="item-submenu" href="/pages/shop.html">SHOP <img src="../images\icons\Vector 1 (Stroke).svg" alt="Descripción de la imagen"></a>
+              <a class="item-submenu" href="/pages/shop.html"
+                >SHOP
+                <img
+                  src="../images\icons\Vector 1 (Stroke).svg"
+                  alt="Descripción de la imagen"
+              /></a>
               <ul class="submenu">
                 <li>
                   <a class="item-submenu" href="/pages/shop.html">FUNKOS</a>
@@ -78,12 +83,20 @@
           </div>
           <div class="cantidad">
             <label>
-              <input type="number" placeholder="0" />
-              <button>Agregar al Carrito</button>
+              <div class="botones-container">
+                <input type="number" placeholder="0" readonly />
+                <div class="botones-cant-item">
+                  <button><img src="../images\icons\signo +.svg" /></button>
+                  <button><img src="../images\icons\signo -.svg" /></button>
+                </div>
+              </div>
+              <div>
+                <button>Agregar al Carrito</button>
+              </div>
             </label>
           </div>
           <div class="modos-pago">
-            <p>Ver mótodos de pago - 3 CUOTAS SIN INTERÉS</p>
+            <p>Ver métodos de pago - 3 CUOTAS SIN INTERÉS</p>
           </div>
         </article>
       </section>

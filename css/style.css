@@ -1874,16 +1874,43 @@ footer .copyright p{
     text-align: left;
 }
 
-.cantidad{
+.cantidad label{
     display:flex;
+    align-items: center;
+    
 }
+
+.cantidad .botones-container{
+    display:flex;
+    align-items: center;
+}
+.botones-container .botones-cant-item{
+    display: flex;
+    flex-direction: column;
+    gap:.2em;
+}
+
+.botones-container .botones-cant-item button{
+    background-color: #4F4F4F;
+    border-color:#4F4F4F;
+    cursor: pointer;
+    padding:0em;
+ }
+
+ .botones-cant-item img{
+    width: .8em;
+    height: .8em;
+ }
+
+
 .cantidad input{
-    width: 4em;
+    width: 6em;
     height: 2.3em;
     font-size: 1em;
     color: #747474;
     text-align: center;
     border: 0.5px solid #C9C9C9;
+    margin-right: -.8em;
 }
 
 .cantidad button{
@@ -1931,6 +1958,11 @@ footer .copyright p{
 .productos-relacionados ul{
     display:flex;
     justify-content: space-evenly;
+    list-style: none;
+}
+
+.productos-relacionados ul a{
+    text-decoration: none;
 }
 
 .productos-relacionados picture img {
@@ -1956,12 +1988,14 @@ footer .copyright p{
 
 .productos-relacionados .categoria{
     color: #333333;
+    text-decoration: none;
     font-family: Inter;
     font-size: .9em;
     font-weight: 500;
     line-height: 1.8em;
     letter-spacing: 0em;
     text-align: left;
+  
 }
 .productos-relacionados .nombre{
     color: #111111;
@@ -2844,10 +2878,81 @@ align-items: center;
 .login-titulo h1{
     white-space: nowrap;
     font-size: 1.7em;
-
 }
 
+.login-titulo{
+    margin-bottom: .8em;
+}
+
+.container-form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-login{
+    grid-column-gap:0em;
+    margin-left: 1.2em;
+}
+
+.form-login label{
+    white-space: nowrap;
+    font-size: 1em;
+}
+
+.form-login p,.form-login a{
+    font-size: .9em;
+}
+.form-login .div2 input, .form-login .div4 input{
+    width: 11em;
+}
+ .form-login .div6{
+    margin-left:2.4em;
+ }
+ .form-login .div8{
+    margin-left:2.4em;
+ }
 /*-------------------------Seccion-Item----------------------------------------*/
+.item{
+    flex-direction: column;
+    align-items: center;
+}
+.item-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-desc .descripcion-fila-1{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:.3em;
+}
+.cantidad label{
+    flex-direction: column;
+    gap:.8em;
+}
+
+.item-img img{
+    height:25em;
+    width: 25em;
+}
+
+.item-desc .desc-1-fila-1{
+    font-size:1.3em;
+}
+.item-desc .desc-2-fila-1{
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+
+.item-desc .desc-3-fila-1{
+font-size:1.2em;
+text-align: center;
+}
+
+}
+/*---------------------productos-relacionados---------------------*/
 }
 
 
