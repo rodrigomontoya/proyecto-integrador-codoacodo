@@ -2620,6 +2620,11 @@ footer .copyright p{
 .lanz-1-desc .lanz-1-desc-1,.lanz-1-desc .lanz-1-desc-2,.lanz-1-desc .lanz-1-desc-3,.lanz-1-desc .lanz-1-desc-4{
     text-align: center;
 }
+.ult-lanz ul .lanz-3-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /*----------------------footer-------------------*/
 footer{
     display:flex;
@@ -2950,17 +2955,58 @@ align-items: center;
 font-size:1.2em;
 text-align: center;
 }
-
+.cantidad button{
+    margin-left:0em;
+}
+.cantidad .botones-container{
+    gap:1.8em;
+}
+.modos-pago p {
+  white-space: nowrap;
+  margin-top:1.5em;
 }
 /*---------------------productos-relacionados---------------------*/
+
+.productos-relacionados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:2em;
+  
+}
+.productos-relacionados h2{
+    text-align: center;
+    font-size:1.6em;
+    white-space: nowrap;
+    margin-top:1.4em;
+    margin-bottom: 1em;
+}
+.productos-relacionados ul{
+    flex-direction: column;
+    align-items: center;
+    gap:1.5em;
+}
+.productos-relacionados ul a{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productos-relacionados ul a .descripcion{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:.2em;
+}
 }
 
-
-    
-  
   
   @media screen and (min-width: 768px)  {
     /* Estilos para tablets */
+
+    /*------------------------Index----------------------*/
+    .body{
+        width: 100%;
+    }
   }
   
  
