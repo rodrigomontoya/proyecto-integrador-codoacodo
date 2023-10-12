@@ -2387,7 +2387,7 @@ footer .copyright p{
    
 /*-------------------------------------------------------------------------- Querys------------------------------------------*/
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px)  {
 /* Estilos para celulares*/
 
 /*--------------encabezado---------------*/
@@ -2997,19 +2997,166 @@ text-align: center;
     align-items: center;
     gap:.2em;
 }
+
+/*---------------------------Seccion-Register-----------------------------*/
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1em;
+}
+.register-titulo h1{
+    font-size:1.7em;
+    white-space: nowrap;  
+}
+
+.form-register{
+  grid-column-gap:0em;
+}
+
+.form-register label{
+    white-space: nowrap;
+    font-size:1em;
+}
+.form-register input, .form-register select{
+font-size:.9em;
+
+}
 }
 
   
-  @media screen and (min-width: 768px)  {
+  @media screen and (min-width: 768px) and (max-width: 1024px)  {
     /* Estilos para tablets */
 
+    /*------------------------Encabezado-------------------*/
+    .encabezado{
+        gap:2em;
+        justify-content:center;
+    }
+    .menu{
+        gap:0em;
+        margin-right:-2em;
+    }
+
+    /*------------------------Footer----------------------*/
+
+    footer{
+       justify-content: flex-start;
+    }
     /*------------------------Index----------------------*/
     .body{
         width: 100%;
     }
+    .productos{
+        align-items: center;
+     
+    }
+    /*------------producto-1--------*/
+    .producto-1{
+        margin-bottom: -3em;
+    }
+
+    .producto-1-descripcion{
+        width: 21em;
+        height: 10em;
+    }
+    .producto-1-linea img{
+     width: 22em;
+   }
+    .producto-1-imagen img {
+        width: auto;
+        height:25em;
+    }
+    .producto-1-detalle p{
+        font-size:1em;
+    }
+
+    .producto-1-detalle h3{
+        font-size: 2em;
+        line-height: 1.3em;
+        margin-bottom: .2em;
+    }
+
+
+     /*------------producto-2--------*/
+     .producto-2{
+        margin-bottom: -7em;
+    }
+     .producto-2-descripcion{
+        width: 21em;
+        height: 10em;
+    }
+    
+    .producto-2-linea img{
+     width: 20.5em;
+   }
+  
+   .producto-2-imagen{
+    display:flex;
+    align-items: center;
+    width:auto;
+    
+   }
+    .producto-2-imagen img {
+        width: 25em;
+        height:25em;
+    }
+    .producto-2-detalle p{
+        font-size:1em;
+    }
+
+    .producto-2-detalle h3{
+        font-size: 2em;
+        line-height: 1.3em;
+        margin-bottom: .2em;
+    }
+
+      /*------------producto-3--------*/
+      .producto-3-descripcion{
+        width: 21em;
+        height: 10em;
+    }
+    
+    .producto-3-linea img{
+     width: 20.5em;
+   }
+  
+   .producto-3-imagen{
+    display:flex;
+    align-items: center;
+    width:auto;
+    margin-right:-3em;
+    
+   }
+    .producto-3-imagen img {
+        width: 25em;
+        height:25em;
+    }
+    .producto-3-detalle p{
+        font-size:1em;
+    }
+
+    .producto-3-detalle h3{
+        font-size: 2em;
+        line-height: 1.3em;
+        margin-bottom: .2em;
+    }
+   /*------------Ultimos-lanzamientos--------*/
+   .ult-lanz ul{
+    justify-content: center;
+   }
+   .lanz-1{
+    width:auto;
+   }
+   .lanz-2{
+    width:auto;
+   }
+    .lanz-3{
+    width:auto;
+   }
   }
   
  
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1025px) {
     /* Estilos para computadoras de escritorio */
   }
