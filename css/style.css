@@ -801,6 +801,10 @@ footer .copyright p{
     width: 3em;
     text-align: center;
   }
+  .filtro-precio .minMax p{
+    display: flex;
+    gap:.3em;
+  }
 
   
 .filtro-varios h1{
@@ -3053,7 +3057,7 @@ width: 10em;
        justify-content: flex-start;
     }
     /*------------------------Index----------------------*/
-    
+
     .body{
         width: 100%;
     }
@@ -3164,8 +3168,257 @@ width: 10em;
     .lanz-3{
     width:auto;
    }
-   /*------------------------Index----------------------*/
+   /*------------------------Seccion-Shop----------------------*/
+ .lista-productos{
+    display:flex;
+    flex-direction: column;
+    gap:1.5em;
+ }
+/*------------------------Primera-Fila----------------------*/
+ .filtro-busq{
+    width:auto;
+    margin-left:-3em;
+    gap:.3em;
+ }
+ .filtro-buscar input,.filtro-ordenar input{
+    width:11em;
+ }
+
+ .filtro-precio .minMax p{
+    display:flex;
+   align-items: center;
+   font-size: .9em;
+ }
+ .filtro-precio .minMax{
+    font-size:1em;
+ }
+ 
+ .filtro-precio .minMax{
+    width:6em;
+ }
+ .prod-1-fila-1{
+    width:7em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .prod-1-text button{
+    width: 5em;
+    padding:3px;
+    margin-left:10em;
+ }
+ .prod-2-text button{
+    width: 5em;
+    padding:3px;
+    margin-left:10em;
+ }
+ .prod-3-text button{
+    width: 5em;
+    padding:3px;
+    margin-left:10em;
+ }
+ 
+ .prod-des-1-fila-1{
+    font-size:.9em;
+   display:flex;
+    flex-direction: column;
+ }
+ .prod-des-2-fila-1{
+    font-size:.9em;
+   display:flex;
+    flex-direction: column;
+ 
+ }
+ .prod-des-3-fila-1{
+    font-size:.9em;
+   display:flex;
+    flex-direction: column;
    
+ }
+
+ .prod-2-fila-1{
+    width:7em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .prod-3-fila-1{
+    width:7em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .lista-productos .imagen-normal{
+    width:10em;
+    height:10em;
+ }
+ .lista-productos .imagen-hover{
+    width:10em;
+    height:10em;
+ }
+ /*------------------------Segunda-Fila----------------------*/
+
+ .fila-2{
+    margin-left:11em;
+ }
+ .prod-1-fila-2{
+    width:7em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+ }
+ .prod-2-fila-2{
+    width:7em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .prod-3-fila-2{
+    width:7em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .prod-1-2-text button{
+    width: 5em;
+    padding:3px;
+    margin-left:10em;
+ }
+ .prod-2-2-text button{
+    width: 5em;
+    padding:3px;
+    margin-left:10em;
+ }
+ .prod-3-2-text button{
+    width: 5em;
+    padding:3px;
+    margin-left:10em;
+ }
+ 
+ .prod-des-4-fila-2{
+    font-size:.9em;
+   display:flex;
+    flex-direction: column;
+ }
+ .prod-des-5-fila-2{
+    font-size:.9em;
+   display:flex;
+    flex-direction: column;
+ 
+ }
+ .prod-des-6-fila-2{
+    font-size:.9em;
+   display:flex;
+    flex-direction: column;
+   
+ }
+
+
+ /*------------------------Tercera-Fila----------------------*/
+
+ .fila-3{
+    margin-left:11em;
+    margin-bottom: 2.5em;
+ }
+ .prod-1-fila-3{
+    width:7em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+ }
+ .prod-2-fila-3{
+    width:7em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .prod-3-fila-3{
+    width:7em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .prod-1-3-text button{
+    width: 5em;
+    padding:3px;
+    margin-left:10em;
+ }
+ .prod-2-3-text button{
+    width: 5em;
+    padding:3px;
+    margin-left:10em;
+ }
+ .prod-3-3-text button{
+    width: 5em;
+    padding:3px;
+    margin-left:10em;
+ }
+ 
+ .prod-des-7-fila-3{
+    font-size:.9em;
+   display:flex;
+    flex-direction: column;
+ }
+ .prod-des-8-fila-3{
+    font-size:.9em;
+   display:flex;
+    flex-direction: column;
+ 
+ }
+ .prod-des-9-fila-3{
+    font-size:.9em;
+   display:flex;
+    flex-direction: column;
+   
+ }
+ /*------------------------Numeracion-Paginas----------------------*/
+ .numeracion-paginas label{
+    margin-left:3em;
+ }
+ /*----------------------------Seccion-Login------------------------------*/
+
+ .login-titulo {
+    margin-top: 1em;
+    margin-bottom: 1.85em;
+ }
+ .form-login{
+    grid-row-gap:4em;
+    margin-bottom: 6.09em;
+    margin-top: 3em;
+    white-space: nowrap;
+ }
+ 
+
+
+ .boton-iniciar-sesion  button{
+    width: 10em;
+    font-size:1.1em;
+    padding: .6em;
+ }
+ /*----------------------------Seccion-Register------------------------------*/
+
+ .form-register{
+    grid-row-gap: 2em;
+    margin-bottom: 5.8em;
+    margin-top: 3em;
+ }
+ .form-register label{
+    font-size:1.1em;
+   
+ }
+ .form-register input, .form-register select{
+    font-size:1.1em;
+ }
+ .boton-register button{
+    width: 10em;
+    font-size:1.1em;
+    padding: .6em;
+ }
+/*----------------------------Seccion-Cart-Productos------------------------------*/
+
   }
   
  
