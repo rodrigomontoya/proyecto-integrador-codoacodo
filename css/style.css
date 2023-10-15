@@ -3452,8 +3452,47 @@ width: 10em;
     padding-left:3em;
 }
 
+/*----------------------------Seccion-Item------------------------------*/
 
-
+.item-img img{
+    height: 27em;
+    width: 27em;
+}
+.item{
+    margin-left:-6em;
+}
+.item-desc .desc-2-fila-1{
+    font-size:2em;
+    line-height: 1.4em;
+}
+.item-desc .desc-3-fila-1{
+    font-size: 1.2em;
+}
+.item-desc .desc-4-fila-1{
+    font-size: 2em;
+}
+.cantidad label{
+    flex-direction: column;
+    gap:.8em;
+}
+.cantidad button{
+    margin-left: 0em;
+}
+.cantidad .botones-container{
+    gap:1em;
+}
+.modos-pago p{
+    margin-bottom: 1.5em;
+}
+.descripcion-fila-1{
+   margin-top: 3em;
+}
+.descripcion-fila-1{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    align-items: flex-start;
+}
 }
   
  
