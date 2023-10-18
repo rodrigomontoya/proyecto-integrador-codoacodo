@@ -59,7 +59,7 @@
     min-width: 100%;
 }
 /*---------------- Estilos de Encabezado----------------*/
-.encabezado{
+.encabezado {
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -70,7 +70,7 @@
     height: 6em;
 }
 
-.logo{
+.logo {
     margin-left:-40px ;
 }
 
@@ -81,14 +81,14 @@
     list-style: none;
     padding: 0;
     background-color:#30343F;
-  }
+}
   
-  .menu li {
+.menu li {
     display: inline-block;
     position: relative;
-  }
-  
-  .menu a {
+}
+
+.menu a {
     display: block;
     padding-left:10px;
     padding-right:10px;
@@ -99,32 +99,31 @@
     font-size: 1.1em;
     line-height: 2.5em;
     letter-spacing: 0em;
-    text-align: right;
-    
+    text-align: right;    
 }
   
-  .menu .item-submenu:hover {
+.menu .item-submenu:hover, .li__a:hover {
     background-color:#FF3333;
     transition: .5s;
-  }
-  
-  /* Estilo para el submenú */
-  .submenu {
+}
+
+/* Estilo para el submenú */
+.submenu {
     display: none;
     position: absolute;
     background-color:#30343F;
     padding: 0;
-  }
-  
-  .menu li:hover .submenu {
+}
+
+.menu li:hover .submenu {
     display: block;
-  }
-  
-  .submenu li {
+}
+
+.submenu li {
     display: block;
-  }
-  
-  .submenu a {
+}
+
+.submenu a {
     padding-left:10px;
     padding-right:10px;
     padding-bottom: 5px;
@@ -140,7 +139,7 @@
 }
   
 .submenu a:hover {
-background-color: #30343F;
+    background-color: #30343F;
 }
   
 /*---------------- Estilos de Banner----------------*/

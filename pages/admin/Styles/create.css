@@ -1,0 +1,246 @@
+main{
+    margin: 2rem 0 2rem 6rem;
+    width: 80%;
+}
+.tituloCrear{
+    color: #1F1F1F;
+    text-align: start;
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.68px;
+
+}
+.labelCategoriaLicencia{
+    margin-top: 2rem;
+}
+.textoInput{
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.96px;
+}
+#selectCategoria{
+    width: 12rem;
+    height: 2rem;
+    flex-shrink: 0;
+    color: #B9B9B9;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    border-radius: 6px;
+    border: 2px solid #30343F;
+    margin-right: .5rem;
+}
+.nombreProducto{
+    display: flex;
+    margin-top: 2rem;
+}
+.inputNombreProducto{
+    margin-left: 1rem;
+    border-bottom: 2px solid #FF3333 ;
+    width: 15rem;
+    color: #B9B9B9;
+    text-align: start;
+    font-family: Inter;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+.descripcionProducto {
+    margin-top: 1.5rem ;
+    border-radius: 4px;
+    border: 1px solid #1F1F1F;
+    color: #B9B9B9;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    text-align: start;
+}
+.descripcionProducto::placeholder{
+    padding: .5rem;
+}
+.skuPrecioStock{
+    display: flex;
+    margin-top: 2rem;
+}
+.nombreInput{
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+}
+.inputSku, .inputPrecio{
+    color: #B9B9B9;
+    text-align: start;
+    font-family: Inter;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    margin-left: .3rem;
+    border-bottom: 2px solid #FF3333 ;
+    width: 8rem;
+    margin-right: 3rem;
+}
+.inputStock{
+    color: #B9B9B9;
+    text-align: center;
+    font-family: Inter;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    margin-left: .3rem;
+    border-bottom: 2px solid #FF3333 ;
+    width: 3rem;
+    margin-right: 3rem;
+}
+.descuentoCuotas{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+}
+.inputDescuento{
+    color: #B9B9B9;
+    text-align: center;
+    font-family: Inter;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    margin-left: .3rem;
+    border-bottom: 2px solid #FF3333 ;
+    width: 3rem;
+    margin-right: 3rem;
+    margin-left: .3rem;
+}
+#selectCuotas{
+    width: 12rem;
+    height: 2rem;
+    color: #B9B9B9;
+    font-family: Inter;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: .3rem;
+    border-radius: 6px;
+    border: 2px solid #30343F;
+}
+.elegirArchivos{
+    margin-top: 2rem;
+}
+.inputElegirArchivo{
+    display: none;
+}
+.custom-button {
+    display: inline-block;
+    padding: .2rem .6rem;    
+    border-radius: 3px;
+    border: 1px solid rgba(48, 52, 63, 0.70);
+    background: rgba(217, 217, 217, 0.63);
+    color: #1F1F1F;
+    text-align: right;
+    font-family: Arial;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.botonesCrearItem{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.botonCrearItem{
+    width: 175px;
+    height: 44.334px;
+    background:#FF3333;
+    color: #FFF;
+    font-family: Inter;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 2rem;
+}
+@media screen and (max-width:480px){
+    main{
+        margin: 2rem 0 2rem 2rem;
+
+    }
+    .tituloCrear{
+        font-size: 1.5rem;    
+    }
+    .textoInput{
+        font-size: 1rem;
+    }
+
+
+    #selectCategoria{
+        margin-top: .7rem;
+        display: flex;
+        width: 12rem;
+        margin-bottom: .5rem;
+    }
+    .nombreProducto{
+        display: flex;
+        margin-top: 2rem;
+    }
+    .nombreInput{
+        font-size: .8rem;
+    }
+    
+    .descripcionProducto {
+        width: 18rem;
+    }
+
+    .skuPrecioStock{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        width: 60%;
+    }
+    .inputSku, .inputPrecio{
+        margin-bottom: 1.5rem;
+    }
+
+    .descuentoCuotas{
+        display: flex;
+        flex-wrap:wrap ;
+        width: 60%;
+    }
+    .nombreInput{
+        width: 20rem;
+        text-align: start;
+        margin-bottom: .5rem;
+    }
+    .inputDescuento{
+        margin-bottom: 1rem;
+    }
+
+
+}
