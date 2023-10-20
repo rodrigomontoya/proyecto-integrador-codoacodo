@@ -19,12 +19,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const header = document.createElement('header');
     header.innerHTML = `
     <a href="../../index.html">
-        <img  class="logoMenu" src="../../images/branding/logo_light_horizontal.svg" alt="logo">
+      <img class="logoMenu" src="../../images/branding/logo_light_horizontal.svg" alt="logo">
     </a>
     <nav class="navHeaderUsuarioAdmin">
-        <a class="menuHeader-link" href="../../pages/shop.html">VER TIENDA</a>
-        <a class="menuHeader-link" href="admin.html">ADMIN</a>
-        <a class="menuHeader-link" href="login.html">SALIR</a>
+      <ul class="menu">
+        <li><a class="item-submenu menuHeader-link" href="../../pages/shop.html">VER TIENDA</a></li>
+        <li><a class="item-submenu menuHeader-link" href="admin.html">ADMIN</a></li>
+        <li><a class="item-submenu menuHeader-link" href="login.html">SALIR</a></li>
+      </ul>
     </nav>
     `;
     document.body.prepend(header);
