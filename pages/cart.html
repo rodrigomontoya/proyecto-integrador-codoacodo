@@ -234,7 +234,7 @@
         const pricePerItem = parseFloat(preciosUnitarios[index].textContent);
         const quantity = parseInt(quantityInputs[index].value);
         const totalAmount = pricePerItem * quantity;
-        totalCells[index].textContent = `$${totalAmount.toFixed(2)}`;
+        totalCells[index].textContent = `${totalAmount.toFixed(2)}`;
       }
 
       // Función para eliminar un ítem

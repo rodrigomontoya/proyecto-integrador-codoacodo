@@ -1,3 +1,53 @@
+@import url(https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css);
+@import url(https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css);
+
+:root {
+    /*PALETTE */
+
+    --primary-solid: #FF3333;
+    --primary-900: rgba(255,51,51, 0.9); 
+    --primary-500: rgba(255,51,51, 0.5); 
+    --primary-300: rgba(255,51,51, 0.3); 
+
+    --secondary-solid: #1D84B5;
+    --secondary-900: rgba(29, 132, 181, 0.9); 
+    --secondary-500: rgba(29, 132, 181, 0.5); 
+    --secondary-300: rgba(29, 132, 181, 0.3); 
+
+    --dark-solid: #1F1F1F;
+    --dark-900: rgb(31, 31, 31, 0.9); 
+    --dark-500: rgb(31, 31, 31, 0.5); 
+    --dark-300: rgb(31, 31, 31, 0.3);
+
+    --dark-bg-solid: #30343F;
+    --light-bg-solid: #FAFAFF;
+    --ligth-font-solid: #FFFFFF;
+
+    /* TYPOGRAPHY */
+    --base-font: 'Inter', sans-serif;
+    --alternative-font: 'Raleway', sans-serif;
+
+    /* FONT-SIZE */
+    --font-display: 4.6em;
+    --font-jumbo: 3.8em;
+    --font-xlarge: 3em;
+    --font-large: 2.4em;
+    --font-medium: 1.8em;
+    --font-small: 1.6em;
+    --font-xsmall: 1.4em;
+
+    /* SPACING */
+    --spacing-128: 12.8rem;
+    --spacing-68: 6.8rem;
+    --spacing-36: 3.6rem;
+    --spacing-28: 2.8rem;
+    --spacing-24: 2.4rem;
+    --spacing-20: 2rem;
+    --spacing-16: 1.6rem;
+    --spacing-12: 1.2rem;
+    --spacing-8: 0.8rem;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,11 +55,11 @@
 }
 
 /*------------------------------ Estilos de Index--------------------------*/
-.cuerpo{
+.cuerpo {
     min-width: 100%;
 }
 /*---------------- Estilos de Encabezado----------------*/
-.encabezado{
+.encabezado {
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -18,13 +68,11 @@
     text-decoration: none;
     color: #FAFAFF;
     height: 6em;
-
 }
 
-.logo{
+.logo {
     margin-left:-40px ;
 }
-
 
 /* Estilo para el menú principal */
 .menu {
@@ -33,14 +81,14 @@
     list-style: none;
     padding: 0;
     background-color:#30343F;
-  }
+}
   
-  .menu li {
+.menu li {
     display: inline-block;
     position: relative;
-  }
-  
-  .menu a {
+}
+
+.menu a {
     display: block;
     padding-left:10px;
     padding-right:10px;
@@ -51,32 +99,31 @@
     font-size: 1.1em;
     line-height: 2.5em;
     letter-spacing: 0em;
-    text-align: right;
-    
+    text-align: right;    
 }
   
-  .menu .item-submenu:hover {
+.menu .item-submenu:hover, .li__a:hover {
     background-color:#FF3333;
     transition: .5s;
-  }
-  
-  /* Estilo para el submenú */
-  .submenu {
+}
+
+/* Estilo para el submenú */
+.submenu {
     display: none;
     position: absolute;
     background-color:#30343F;
     padding: 0;
-  }
-  
-  .menu li:hover .submenu {
+}
+
+.menu li:hover .submenu {
     display: block;
-  }
-  
-  .submenu li {
+}
+
+.submenu li {
     display: block;
-  }
-  
-  .submenu a {
+}
+
+.submenu a {
     padding-left:10px;
     padding-right:10px;
     padding-bottom: 5px;
@@ -91,9 +138,9 @@
     text-align: left;
 }
   
-  .submenu a:hover {
+.submenu a:hover {
     background-color: #30343F;
-  }
+}
   
 /*---------------- Estilos de Banner----------------*/
 .banner{
@@ -115,9 +162,6 @@ line-height: 1.5em;
 letter-spacing: 0em;
 margin-left:3.4em;
 
-
-
-   
 }
 .descripcionBanner  p{
 font-size: 1.1em;
@@ -127,9 +171,10 @@ margin-left:6.2em;
 
 }
 
-.botonShop{
+/*.botonShop{
     margin-top:20px;
 }
+
 .botonShop .boton{
     color: black !important;
     font-family: Inter;
@@ -140,27 +185,54 @@ margin-left:6.2em;
     text-align: center;
     color:#FAFAFF ;
     text-decoration: none; 
-     background-color: white;
-    border:10px solid (rgb(15, 15, 15)); 
+    background-color: white;
+    border:10px solid rgb(15, 15, 15); 
     border-left: 43px solid white;
     border-right: 43px solid white;
-    border-radius: 50px; /* Esquinas redondas */
-    padding: 10px; /* Espacio interior para el contenido */
-  
+    border-radius: 50px; Esquinas redondas
+    padding: 10px;  Espacio interior para el contenido 
+}*/
+
+.banner__link {
+    margin-left: 6.8em;
+    width: 11rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 3rem;
+    background: var(--light-bg-solid);
+    border-color: var(--light-bg-solid);
+    margin-top: 1.5rem;
+    color: #111;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: normal;
+    transition: all .3s ease-in-out;
 }
+
+.banner__link:hover {
+    background-color: var(--primary-900);
+    color: var(--light-bg-solid);
+}
+
+.banner__link a{
+    text-decoration: none;
+    color: inherit;
+}
+.banner__link a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
 /*---------------- Estilos de Banner----------------*/
 .productos{
     display:flex;
     flex-direction: column;
-   
-    
-
 }
 /*---------------- -----Productos--------------------------------*/
 .productos{
     margin-left:5em;
-    margin-right:5em;
-   
+    margin-right:5em;   
 }
 
 /*---------------- Producto 1----------------*/
@@ -204,8 +276,8 @@ letter-spacing: 0em;
 text-align: center;
 color:#FAFAFF ;
 text-decoration: none; 
- background-color:#30343F;
-border:10px solid (#30343F); 
+background-color:#30343F;
+border:10px solid #30343F; 
 border-radius: 50px; /* Esquinas redondas */
 padding: 10px; /* Espacio interior para el contenido */
 border-left: 1.4em solid #30343F;
@@ -258,8 +330,8 @@ letter-spacing: 0em;
 text-align: center;
 color:#FAFAFF ;
 text-decoration: none; 
- background-color:#30343F;
-border:10px solid (#30343F); 
+background-color:#30343F;
+border:10px solid #30343F; 
 border-radius: 50px; /* Esquinas redondas */
 padding: 10px; /* Espacio interior para el contenido */
 border-left: 1.4em solid #30343F;
@@ -314,7 +386,7 @@ text-align: center;
 color:#FAFAFF ;
 text-decoration: none; 
  background-color:#30343F;
-border:10px solid (#30343F); 
+border:10px solid #30343F; 
 border-radius: 50px; /* Esquinas redondas */
 padding: 10px; /* Espacio interior para el contenido */
 border-left: 1.4em solid #30343F;
@@ -583,6 +655,112 @@ color: #ffffff;
     letter-spacing: 0em;
     text-align: left;
 }
+
+/*SLIDER*/
+
+#slider {
+    font-size: 62.5%;
+/*    scale: 0.70;*/
+}
+
+.textoCeleste {
+    color: var(--secondary-solid) !important;
+    font-family: Inter;
+    font-size: 0.875em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cartelitoRojo {
+    background: var(--primary-solid);
+    color: var(--ligth-font-solid)!important;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    display: flex;
+}
+
+.etiquetaNuevo {
+    font-size: var(--font-xsmall);
+    padding: var(--spacing-8) var(--spacing-12);
+    position: absolute;
+    right: 0;
+}
+
+.slider {
+    display: float;
+    flex-direction: column;
+    gap: var(--spacing-36);
+}
+
+.slider__title {
+    font-family: var(--alternative-font);
+    font-size: var(--font-display);
+}
+
+iconify-icon {
+    color: var(--dark-bg-solid);
+    font-size: var(--font-small);
+    font-weight: 700;
+}
+
+.glide_arrow--left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.card-item__cover {
+    display: flex;
+    position: relative;
+}
+
+.card-item__cover img {
+    animation: fade .7s;
+}
+
+.card-item__img--back {
+    display: none;
+}
+
+.card-item__cover:hover .card-item__img--back {
+    display: block;
+}
+
+.card-item__cover:hover .card-item__img--front {
+    display: none;
+}
+
+.card-item__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-12);
+    padding: var(--spacing-16);
+}
+
+.card-item__licence {
+    font-size: var(--font-xsmall);
+    font-weight: 500;
+}
+
+.card-item__name {
+    font-size: var(--font-medium);
+    font-weight: 700;
+}
+
+.card-item__price {
+    font-size: var(--font-small);
+}
+
+.card-item__promo {
+    font-size: var(--font-xsmall);
+    font-weight: 700;
+}
+
+/*ACÁ TERMINA SLIDER*/
 
 /*------------------------footer----------------------------*/
 

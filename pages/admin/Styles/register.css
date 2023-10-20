@@ -1,0 +1,215 @@
+
+main{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 41rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#contenedor {
+    position: relative;
+    display: flex;
+    width: 40rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+.tituloLogin{
+    color: #1F1F1F;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.68px;
+    width: 23.5rem;    
+}
+.subtituloLogin{
+    color: #1F1F1F;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    width: 58rem;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 3rem 0 3rem;
+}
+#email{
+    color: #B9B9B9;
+    text-align: start;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    height: 1.5rem;
+    width: 13rem;
+}
+#contrasenia{
+    color: #B9B9B9;
+    text-align: start;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    width: 13rem;
+    
+}
+.subtituloInput{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    margin-bottom:1.8rem;
+}
+.loginInputs{
+    display: flex;
+    flex-direction: column;
+    color: #B9B9B9;
+    text-align: start;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    margin-left: .7rem;
+
+}
+.loginInputs input{
+    border-bottom: .15rem solid #FF3333;  
+    margin-bottom: 1.8rem;
+}
+#buttonRegistro{
+    width: 7rem;
+    height: 2.7rem;
+    background: #F33;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 2rem;
+}
+.checkboxCubo{
+    border-radius: 5px;
+    border: 4px solid #1F1F1F;
+    margin-right: .3rem;
+}
+.checkboxRecordarme{
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.olvideContrasenia{
+    color: #1D84B5;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2rem;
+    text-align: center;
+}
+#terminosCondiciones{
+    text-decoration: none;
+    color:  #1D84B5;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#terminosCondiciones:visited {
+    color: #0d4763;
+
+}
+
+#terminosCondiciones:hover {
+    color: #1D84B5;
+}
+
+#terminosCondiciones:active {
+    color:none;
+}
+@media screen and (max-width:760px){
+    .tituloLogin{
+        font-size: 1.8rem;
+    }
+    .subtituloLogin{
+        width: auto;
+        font-size: 1.5rem;
+    }
+   
+}
+@media screen and (max-width:480px){
+        #contenedor {
+            width: 20rem;
+            margin-top: 5rem;
+        }
+    
+        .subtituloLogin{
+            width: auto;
+            font-size: 1rem;
+        }
+        .login{
+            width: 80%;
+        }
+        .subtituloInput{
+            font-size: 1rem;
+            text-align: start;
+            width: auto;
+
+        }
+        
+        .loginInputs input, #email, #contrasenia{
+            border-bottom: .15rem solid #FF3333;  
+            margin-bottom: 1.7rem;
+            width: 9rem;
+        }
+        #email::placeholder{
+            font-size: .8rem;
+        }
+        #buttonRegistro{
+            width: 5rem;
+            height: 2.5rem;
+            font-size: .9rem;
+            margin-right: 1rem;
+        }
+     
+        .checkboxRecordarme, #terminosCondiciones{
+            font-size: .8rem;
+      
+        }
+
+
+        }
