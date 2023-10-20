@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 /*------------------------------ Estilos de Index--------------------------*/
 .cuerpo{
     min-width: 100%;
@@ -330,30 +331,32 @@ border-bottom: .1em solid #30343F;
 
 /*----------------------Ultimo lanzamientos--------------------------------*/
 
-.ult-lanz{
-    margin-left:5em;
-    margin-right:5em;
-    margin-bottom:4.5em;
-}
 
 .ult-lanz ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     list-style: none;
+    margin-bottom: 2em;
 }
-
+.glide__slides{
+    justify-content: center;
+}
 .ult-lanz-titulo h2{
     font-family:Raleway;
     font-size: 2.3em;
     line-height: 1em;
     letter-spacing: 0em;
     text-align: left;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     font-weight:900;
+    margin-left:2em;
      
 }
+.glide__slide{
+    width: auto;
+}
 
+iconify-icon{
+
+}
 /*----------------------lanz-1--------------------------*/
 .lanz-1{
     display: flex;

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
     <link rel="stylesheet"  href="./css/style.css">
     <title>Home|FunkShop</title>
@@ -180,6 +180,10 @@
         </li>
        </ul>
       </div>
+      <div  class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left"  data-glide-dir="<"><iconify-icon icon="mdi:chevron-left"></iconify-icon></button>
+        <button  class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon icon="mdi:chevron-right"></iconify-icon></button>
+      </div>
       </section>
     </main>
     <footer >
@@ -200,22 +204,25 @@
     </footer>
     <script>src="./script\script.js"</script>
     <script> src="https://cdn.jsdelivr.net/npm/@glidejs/glide"</script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script>
-      new Glide('.glide',{
-        type:'carousel',
-        starAt:0,
-        perView:3,
-        gap:30,
-        breakpoint:{
-          991:{
-            perView:2
-          },
-          768:{
-            perView:1
-          }
-        }
-      }).mount();
-    </script>
+      new Glide('.glide',
+      {
+      type: 'carousel',
+      startAt: 0,
+      perView: 3,
+      gap: 30,
+      breakpoints: {
+      991: {
+      perView: 2
+      },
+      768: {
+      perView: 1
+      }
+      }
+      }
+      ).mount();
+      </script>
   </body>
 </html>
 
