@@ -355,8 +355,27 @@ border-bottom: .1em solid #30343F;
 }
 
 iconify-icon{
+    color:black;
+    font-size:1.2em;
+    font-weight:700;
 
 }
+/*-------------------Animacion de imagenes de productos-------------------*/
+
+/* Estilo para ocultar la imagen de hover inicialmente */
+ .lanz-1-img.imagen-hover,.lanz-2-img .imagen-hover,.lanz-3-img .imagen-hover {
+    display: none;
+   
+  }
+  /* Mostrar la imagen de hover cuando se pasa el mouse sobre el enlace */
+  .enlace-imagen:hover .imagen-hover {
+    display: inline-block;
+
+  }
+  /* Ocultar la imagen normal cuando se pasa el mouse sobre el enlace */
+  .enlace-imagen:hover .imagen-normal {
+    display: none;
+  }
 /*----------------------lanz-1--------------------------*/
 .lanz-1{
     display: flex;
@@ -392,7 +411,7 @@ iconify-icon{
 .lanz-1-img img{
     height: 17em;
     width: 17em;
-    margin-top:-1.5em;
+    margin-top:-1em;
 }  
 /*--------descripcion de imagen---------*/
 
@@ -452,7 +471,7 @@ iconify-icon{
 .lanz-2-img img{
     height:17em;
     width: 17em;
-    margin-top:-1.5em;
+    margin-top:-1em;
 }   
 .lanz-2-img-text button{
 color: #ffffff;
@@ -526,7 +545,7 @@ color: #ffffff;
 .lanz-3-img img{
     height: 17em;
     width: 17em;
-    margin-top:-1.5em;
+    margin-top:-1em;
 }   
 .lanz-3-img-text button{
   color: #ffffff;
@@ -1527,9 +1546,9 @@ footer .copyright p{
    margin-left:-6em;
 }
 
-    .container{
+    .container-carrito{
      margin-left:5em;
-     margin-right:5em;;
+     margin-right:5em;
     }
 
     
@@ -1842,6 +1861,8 @@ footer .copyright p{
     flex-direction: row;
     align-items: center;
     margin-bottom: -2.5em;
+    margin-left:4em;
+    margin-right:4em;
 }
 .item-desc .desc-1-fila-1{
     color: #333333;
@@ -2032,7 +2053,24 @@ footer .copyright p{
     letter-spacing: 0em;
     text-align: left;
 }
+/*---------------------------------------- Ultimos-Lanzamientos----------------------------------*/
 
+/*-------------------Animacion de imagenes de productos-------------------*/
+
+/* Estilo para ocultar la imagen de hover inicialmente */
+.lanz-1-img.imagen-hover,.lanz-2-img .imagen-hover,.lanz-3-img .imagen-hover {
+    display: none;
+   
+  }
+  /* Mostrar la imagen de hover cuando se pasa el mouse sobre el enlace */
+  .enlace-imagen:hover .imagen-hover {
+    display: inline-block;
+
+  }
+  /* Ocultar la imagen normal cuando se pasa el mouse sobre el enlace */
+  .enlace-imagen:hover .imagen-normal {
+    display: none;
+  }
 /*---------------------------------------- Seccion-Contacto----------------------------------*/
 .contacto{
     display:flex;
@@ -2963,38 +3001,9 @@ text-align: center;
   white-space: nowrap;
   margin-top:1.5em;
 }
-/*---------------------productos-relacionados---------------------*/
 
-.productos-relacionados{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top:2em;
-  
-}
-.productos-relacionados h2{
-    text-align: center;
-    font-size:1.6em;
-    white-space: nowrap;
-    margin-top:1.4em;
-    margin-bottom: 1em;
-}
-.productos-relacionados ul{
-    flex-direction: column;
-    align-items: center;
-    gap:1.5em;
-}
-.productos-relacionados ul a{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-.productos-relacionados ul a .descripcion{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap:.2em;
-}
+
+
 
 /*---------------------------Seccion-Register-----------------------------*/
 
@@ -3453,7 +3462,8 @@ width: 10em;
     width: 27em;
 }
 .item{
-    margin-left:-6em;
+    margin-left:-1em;
+    margin-bottom: .5em;
 }
 .item-desc .desc-2-fila-1{
     font-size:2em;
