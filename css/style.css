@@ -2640,7 +2640,7 @@ footer .copyright p{
 /*----------------------Ultimos-lanz-------------------*/
 
 .ult-lanz-titulo h2{
-    font-size:1.8em;
+    font-size:1.5em;
     text-align: center;
     line-height: normal;
     font-weight:700;
@@ -3000,9 +3000,14 @@ text-align: center;
 .modos-pago p {
   white-space: nowrap;
   margin-top:1.5em;
+  margin-bottom: 5em;
 }
 
-
+.ult-lanz-titulo h2{
+    font-size:1.5em;
+    white-space: nowrap;
+    margin-right: 1em;
+}
 
 
 /*---------------------------Seccion-Register-----------------------------*/
