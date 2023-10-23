@@ -1932,7 +1932,7 @@ footer .copyright p{
 
 
 .cantidad input{
-    width: 6em;
+    width: 4.5em;
     height: 2.3em;
     font-size: 1em;
     color: #747474;
@@ -3008,6 +3008,9 @@ text-align: center;
     white-space: nowrap;
     margin-right: 1em;
 }
+.cantidad input{
+    padding-left: 0em;
+}
 
 
 /*---------------------------Seccion-Register-----------------------------*/
@@ -3501,6 +3504,12 @@ width: 10em;
     flex-direction: column;
     gap:1em;
     align-items: flex-start;
+}
+.cantidad input{
+    padding-left: 0em;
+}
+.cantidad .botones-container{
+    gap:2em;
 }
 
 }
