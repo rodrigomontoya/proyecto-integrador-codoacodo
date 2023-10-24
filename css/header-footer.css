@@ -104,6 +104,15 @@ footer {
     margin-bottom: 0;
 }
 
+.enlaces {
+    transition: background .3s ease-in-out;
+    padding: 4px 8px;
+}
+
+.enlaces:hover {
+    background: #FF4848;
+}
+
 .logoFooter img {
     width: 6rem;
     margin-top: 1.5rem;

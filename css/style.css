@@ -157,18 +157,17 @@ align-items: center;
     font-family: Raleway;
 }
 .descripcionBanner h3{
-font-size: 2em;
-line-height: 1.5em;
-letter-spacing: 0em;
-margin-left:3.4em;
-
+    font-size: 2em;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    margin-left:3.4em;
 }
-.descripcionBanner  p{
-font-size: 1.1em;
-line-height:1.1em;
-letter-spacing: 0em;
-margin-left:6.2em;
 
+.descripcionBanner  p{
+    font-size: 1.1em;
+    line-height:1.1em;
+    letter-spacing: 0em;
+    margin-left:6.2em;
 }
 
 /*.botonShop{
@@ -215,11 +214,11 @@ margin-left:6.2em;
     color: var(--light-bg-solid);
 }
 
-.banner__link a{
+.banner__link a {
     text-decoration: none;
     color: inherit;
 }
-.banner__link a:visited{
+.banner__link a:visited {
     text-decoration: none;
     color: inherit;
 }

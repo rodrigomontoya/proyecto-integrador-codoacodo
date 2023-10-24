@@ -35,12 +35,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const footer = document.createElement('footer');
     footer.innerHTML = `
     <div class="footerUsuario">
-      <div class="navFooter">
-        <a href="../../pages/shop.html">SHOP</a>
-        <a href="register.html">REGISTRARSE</a>
-        <a href="login.html">INGRESAR</a>
-        <a href="contact.html">CONTACTO</a>
-      </div>
+      <nav class="navFooter">
+        <a class="enlaces" href="../../pages/shop.html">SHOP</a>
+        <a class="enlaces" href="register.html">REGISTRARSE</a>
+        <a class="enlaces" href="login.html">INGRESAR</a>
+        <a class="enlaces" href="contact.html">CONTACTO</a>
+      </nav>
         <div class="logoFooter">
             <img src="../../images/branding/isotype.svg" alt="Logo Funkoshop">
         </div>
