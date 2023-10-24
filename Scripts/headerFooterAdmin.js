@@ -2,13 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // Crear un enlace al archivo CSS
   const cssLink1 = document.createElement('link');
   cssLink1.rel = 'stylesheet';
-  cssLink1.type = 'text/css';
-  cssLink1.href = '../../Css/style.css';
+  cssLink1.href = '../../css/style.css';
 
   const cssLink2 = document.createElement('link');
   cssLink2.rel = 'stylesheet';
-  cssLink2.type = 'text/css';
-  cssLink2.href = '../../Css/header-footer.css';
+  cssLink2.href = '../../css/header-footer.css';
 
   // Agregar los enlaces CSS al head del documento
   document.head.appendChild(cssLink1);
