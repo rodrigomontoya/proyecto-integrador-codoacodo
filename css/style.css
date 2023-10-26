@@ -59,7 +59,7 @@
     min-width: 100%;
 }
 /*---------------- Estilos de Encabezado----------------*/
-.encabezado {
+header {
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -901,13 +901,14 @@ footer .copyright p{
     width:15em;
 }
 
-
 /*-------------------------- filtro-busq -----------------------*/
-.filtro-busq{
+.aside__filtroBúsqueda {
     display:flex;
     flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
-.filtro-buscar h1{
+.filtro-buscar h2 {
     color: #111111;
     font-family:Inter;
     font-size: 1.2em;
@@ -924,7 +925,7 @@ footer .copyright p{
 .filtro-ordenar{
     margin-bottom: .5em;
 }
-.filtro-ordenar h1{
+.filtro-ordenar h2 {
     color: #111111;
     font-family:Inter;
     font-size: 1.2em;
@@ -937,7 +938,7 @@ footer .copyright p{
 .filtro-precio{
     margin-bottom:.5em;
 }
-.filtro-precio h1{
+.filtro-precio h2 {
     color: #111111;
     font-family:Inter;
     font-size: 1.3em;
@@ -954,7 +955,6 @@ footer .copyright p{
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .filtro-buscar input {
@@ -982,9 +982,8 @@ footer .copyright p{
     display: flex;
     gap:.3em;
   }
-
   
-.filtro-varios h1{
+.filtro-varios h2 {
     color: #111111;
     font-family:Inter;
     font-size: 1.3em;
@@ -995,41 +994,13 @@ footer .copyright p{
     margin-bottom: .2em;
 }
 
-.filtro-varios .checkboxNuevos{
+.label__checkbox {
+    display: block;
     color: #111111;
     font-family: Inter;
     font-size: 1em;
     font-weight: 500;
     line-height: 2em;
-    letter-spacing: 0em;
-    text-align: left;
-}
-.filtrar-varios .checkboxOfertas{
-    color: #111111;
-    font-family: Inter;
-    font-size: 1em;
-    font-weight: 500;
-    line-height: 2em;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-.filtro-varios .checkboxEdicionEspecial{
-    color: #111111;
-    font-family: Inter;
-    font-size: 1em;
-    font-weight: 500;
-    line-height:2em;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-.filtro-varios .checkboxFavoritos{
-    color: #111111;
-    font-family: Inter;
-    font-size: 1em;
-    font-weight: 500;
-    line-height:1.3em;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -1067,12 +1038,10 @@ footer .copyright p{
   .enlace-imagen:hover .imagen-normal {
     display: none;
   }
-  
-  
 
 /*-------------------------- Producto-1-----------------------*/
 
-.prod-1-text button {
+.botónNuevo {
     color: #ffffff;
     padding:4px;
     text-decoration: none;
@@ -1086,8 +1055,6 @@ footer .copyright p{
     margin-left:13em;
     width:6em;
 }
-
-
   
 .prod-des-1-fila-1 .desc-1-fila-1{
     color:#333333;
@@ -1133,18 +1100,7 @@ footer .copyright p{
 
 /*-------------------------- Producto-2-----------------------*/
 .prod-2-text button {
-    color: #ffffff;
-    padding:4px;
-    text-decoration: none;
-    font-family: Inter;
-    font-size: 1.em;
-    line-height:normal;
-    letter-spacing: 0em;
-    text-align: center;
-    background-color: #FF3333;
-    border:solid #ff3333;
-    margin-left:13em;
-    width:6em;
+
 }
 
 .prod-des-2-fila-1 .desc-1-fila-1{
@@ -1190,18 +1146,7 @@ footer .copyright p{
 }
 /*-------------------------- Producto-3-----------------------*/
 .prod-3-text button {
-    color: #ffffff;
-    padding:4px;
-    text-decoration: none;
-    font-family: Inter;
-    font-size: 1.em;
-    line-height:normal;
-    letter-spacing: 0em;
-    text-align: center;
-    background-color: #FF3333;
-    border:solid #ff3333;
-    margin-left:13em;
-    width:6em;
+
 }
 
 .prod-des-3-fila-1 .desc-1-fila-1{
@@ -1258,18 +1203,7 @@ footer .copyright p{
 /*-------------------------- Producto-4-----------------------*/
 
 .prod-1-2-text button {
-    color: #ffffff;
-    padding:4px;
-    text-decoration: none;
-    font-family: Inter;
-    font-size: 1.em;
-    line-height:normal;
-    letter-spacing: 0em;
-    text-align: center;
-    background-color: #FF3333;
-    border:solid #ff3333;
-    margin-left:13em;
-    width:6em;
+
 }
 
 .prod-des-4-fila-2 .desc-1-fila-2 {
@@ -1315,18 +1249,7 @@ footer .copyright p{
 }
 /*-------------------------- Producto-5-----------------------*/
 .prod-2-2-text button {
-    color: #ffffff;
-    padding:4px;
-    text-decoration: none;
-    font-family: Inter;
-    font-size: 1.em;
-    line-height:normal;
-    letter-spacing: 0em;
-    text-align: center;
-    background-color: #FF3333;
-    border:solid #ff3333;
-    margin-left:13em;
-    width:6em;
+
 }
 
 .prod-des-5-fila-2 .desc-1-fila-2{
@@ -1380,18 +1303,7 @@ footer .copyright p{
 
 /*-------------------------- Producto-6-----------------------*/
 .prod-3-2-text button{
-    color: #ffffff;
-    padding:4px;
-    text-decoration: none;
-    font-family: Inter;
-    font-size: 1.em;
-    line-height:normal;
-    letter-spacing: 0em;
-    text-align: center;
-    background-color: #FF3333;
-    border:solid #ff3333;
-    margin-left:13em;
-    width:6em;
+
 }
 
 .prod-des-6-fila-2 .desc-1-fila-2{
@@ -1437,18 +1349,7 @@ footer .copyright p{
 }
 /*-------------------------- Producto-7-----------------------*/
 .prod-1-3-text button {
-    color: #ffffff;
-    padding:4px;
-    text-decoration: none;
-    font-family: Inter;
-    font-size: 1.em;
-    line-height:normal;
-    letter-spacing: 0em;
-    text-align: center;
-    background-color: #FF3333;
-    border:solid #ff3333;
-    margin-left:13em;
-    width:6em;
+
 }
 
 .prod-des-7-fila-3 .desc-1-fila-3{
@@ -1494,18 +1395,7 @@ footer .copyright p{
 }
 /*-------------------------- Producto-8-----------------------*/
 .prod-2-3-text button {
-    color: #ffffff;
-    padding:4px;
-    text-decoration: none;
-    font-family: Inter;
-    font-size: 1.em;
-    line-height:normal;
-    letter-spacing: 0em;
-    text-align: center;
-    background-color: #FF3333;
-    border:solid #ff3333;
-    margin-left:13em;
-    width:6em;
+
 }
 
 .prod-des-8-fila-3 .desc-1-fila-3{
@@ -1551,18 +1441,7 @@ footer .copyright p{
 }
 /*-------------------------- Producto-9-----------------------*/
 .prod-3-3-text button {
-    color: #ffffff;
-    padding:4px;
-    text-decoration: none;
-    font-family: Inter;
-    font-size: 1.em;
-    line-height:normal;
-    letter-spacing: 0em;
-    text-align: center;
-    background-color: #FF3333;
-    border:solid #ff3333;
-    margin-left:13em;
-    width:6em;
+
 }
 
 .prod-des-9-fila-3 .desc-1-fila-3{
@@ -2572,7 +2451,7 @@ footer .copyright p{
 /* Estilos para celulares*/
 
 /*--------------encabezado---------------*/
-    .encabezado  {
+    header  {
         flex-direction: column;
         gap:15px;
         align-items:center;
@@ -3208,18 +3087,13 @@ text-align: center;
 .form-register input, .form-register select{
 font-size:.9em;
 width: 10em;
-
 }
-
-
-}
-
-  
+ 
   @media screen and (min-width: 768px) and (max-width: 1024px)  {
     /* Estilos para tablets */
 
     /*------------------------Encabezado-------------------*/
-    .encabezado{
+    header{
         gap:2em;
         justify-content:center;
     }
@@ -3354,8 +3228,8 @@ width: 10em;
  }
 /*------------------------Primera-Fila----------------------*/
  .filtro-busq{
-    width:auto;
-    margin-left:-3em;
+    width: auto;
+    margin-left: 5PX;
     gap:.3em;
  }
  .filtro-buscar input,.filtro-ordenar input{
