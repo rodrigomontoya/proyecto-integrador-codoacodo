@@ -1659,7 +1659,6 @@ footer .copyright p{
     text-align: center;
     width: 3.5em;
     height: 2.1em;
-    text-indent: .7em;
    
 }
 .cart-productos .producto-total p,span{
@@ -1697,11 +1696,11 @@ footer .copyright p{
     cursor: pointer;
  }
 
- .botones-cant img{
-    width: 1.1em;
-    height: 1em;
-    padding: .5px;
-    margin-top:2px;
+ .botones-cant .increment-button,.botones-cant .decrement-button{
+    color:#FFFFFF;
+    font-size: 1.1em;   
+    width: 1.5em;
+    height: 1.3em;
  }
 
 /*--------------------------- Resumen--------------------*/
@@ -2785,6 +2784,7 @@ footer .footer-logo{
     width:2em;
     height: 2em;
 }
+
 /*----------------------primer-producto------------------*/
 .cart-prod-fila-2{
     display:flex;
@@ -2820,8 +2820,8 @@ footer .footer-logo{
     width: 4em;
 }
 .producto-cantidad .botones-cant button{
-    width: 3.5em;
-    height: 1.9em;
+    width: 3.2em;
+    height: 1.6em;
 }
 
 .cart-prod-fila-2 .div-7 p{
