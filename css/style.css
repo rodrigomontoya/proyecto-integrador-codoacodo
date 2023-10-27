@@ -141,15 +141,34 @@ header {
 .submenu a:hover {
     background-color: #30343F;
 }
+
+/* Estilo para el badge del carrito */
+#cartBadge {
+    color: white;
+    position: absolute;
+    background: #FF4848!important;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 90rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 2.1rem;
+    font-family: inter;
+    margin-top: -3.55rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5rem; /* Ajusta este valor según sea necesario */
+}
   
 /*---------------- Estilos de Banner----------------*/
-.banner{
-height:20em ;
-background-image: url(../images/funkos-banner.jpg);
-background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del elemento */
-background-position: 50% 80%;
-display:flex;
-align-items: center;
+.banner {
+    height: 20em;
+    background-image: url(../images/funkos-banner.jpg);
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del elemento */
+    background-position: 50% 80%;
+    display:flex;
+    align-items: center;
 }
 
 .descripcionBanner{
@@ -218,21 +237,22 @@ align-items: center;
     text-decoration: none;
     color: inherit;
 }
+
 .banner__link a:visited {
     text-decoration: none;
     color: inherit;
 }
 
 /*---------------- Estilos de Banner----------------*/
-.productos{
+.productos {
     display:flex;
     flex-direction: column;
+    margin-left: 5em;
+    margin-right: 5em; 
 }
+
 /*---------------- -----Productos--------------------------------*/
-.productos{
-    margin-left:5em;
-    margin-right:5em;   
-}
+
 
 /*---------------- Producto 1----------------*/
 .producto-1{
@@ -246,51 +266,50 @@ align-items: center;
     height:10em;
 }
 .producto-1-detalle h3{
-font-family: Raleway;
-font-size: 2.3em;
-line-height: 2em;
-letter-spacing: 0em;
-text-align: left;
-color: #111111;
-
+    font-family: Raleway;
+    font-size: 2.3em;
+    line-height: 2em;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #111111;
 }
 .producto-1-linea img{
     width:35em;
 }
 .producto-1-detalle p{
-font-family: Raleway;
-font-size: 1.2em;
-line-height: 1.8em;
-letter-spacing: 0em;
-text-align:left;
-color: #4F4F4F;
+    font-family: Raleway;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    letter-spacing: 0em;
+    text-align:left;
+    color: #4F4F4F;
 ;
 }
 .producto-1-boton a{
-font-family: Inter;
-margin-left:1em;
-font-size: 1.1em;
-line-height: 3.8em;
-letter-spacing: 0em;
-text-align: center;
-color:#FAFAFF ;
-text-decoration: none; 
-background-color:#30343F;
-border:10px solid #30343F; 
-border-radius: 50px; /* Esquinas redondas */
-padding: 10px; /* Espacio interior para el contenido */
-border-left: 1.4em solid #30343F;
-border-right: 1.4em solid #30343F;
-border-top: .1em solid #30343F;
-border-bottom: .1em solid #30343F;
+    font-family: Inter;
+    margin-left:1em;
+    font-size: 1.1em;
+    line-height: 3.8em;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FAFAFF ;
+    text-decoration: none; 
+    background-color:#30343F;
+    border:10px solid #30343F; 
+    border-radius: 50px; /* Esquinas redondas */
+    padding: 10px; /* Espacio interior para el contenido */
+    border-left: 1.4em solid #30343F;
+    border-right: 1.4em solid #30343F;
+    border-top: .1em solid #30343F;
+    border-bottom: .1em solid #30343F;
 }
 
-.producto-1-imagen{
+.producto-1-imagen {
     width: 35em;
     height: 35em;
 }
 /*---------------Producto 2----------------*/
-.producto-2{
+.producto-2 {
     display:flex;
     flex-direction:row;
     align-items: center;
@@ -3093,27 +3112,27 @@ width: 10em;
     /* Estilos para tablets */
 
     /*------------------------Encabezado-------------------*/
-    header{
+    header {
         gap:2em;
         justify-content:center;
     }
-    .menu{
+    .menu {
         gap:0em;
         margin-right:-2em;
     }
 
     /*------------------------Footer----------------------*/
 
-    footer{
+    footer {
        justify-content: flex-start;
        height: 16em;
     }
     /*------------------------Index----------------------*/
 
-    .body{
+    .body {
         width: 100%;
     }
-    .productos{
+    .productos {
         align-items: center;
      
     }
