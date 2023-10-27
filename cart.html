@@ -129,6 +129,11 @@
     </section>
   </main>
   <script>
+    // Función para mostrar y actualizar el badge del carrito
+    function updateCartBadge(totalQuantity) {      
+      cartBadge.textContent = totalQuantity; // Actualizar el número en el badge
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
       // Seleccionar todos los elementos relevantes del DOM
       const totalCells = document.querySelectorAll('.total-cell');
@@ -163,6 +168,8 @@
         subtotal.textContent = `$${subtotalAmount.toFixed(2)}`;
         delivery.textContent = `$${deliveryAmount.toFixed(2)}`;
         total.textContent = `$${totalAmountWithDelivery.toFixed(2)}`;
+        // Mostrar y actualizar el badge del carrito
+        updateCartBadge(totalQuantity);
       }
 
       // Agregar eventos a los campos de cantidad y botones de eliminación

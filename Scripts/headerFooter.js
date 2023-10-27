@@ -34,7 +34,10 @@ document.addEventListener("DOMContentLoaded", function () {
             </li>
             <li><a class="item-submenu" href="contact.html">CONTACTO</a></li>
             <li><a class="item-submenu" href="pages/admin/login.html">LOGIN</a></li>
-            <li><a href="cart.html"><img src="images/icons/cart-icon.svg" alt="Icono Cart"/></a></li>
+            <li>
+              <a href="cart.html"><img src="images/icons/cart-icon.svg" alt="Icono Cart"/></a>
+              <p id="cartBadge" style="display:none;">0</p>
+            </li>
           </ul>
         </nav>
       </article>
@@ -65,4 +68,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   generateHeader();
   generateFooter();
+
+    if (window.location.href.includes("cart.html")) {
+    const cartBadge = document.getElementById('cartBadge');
+    cartBadge.style.display = 'inline';}
 });
