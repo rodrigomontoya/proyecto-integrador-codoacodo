@@ -3054,6 +3054,9 @@ width: 10em;
     display: flex;
     align-items: center;
     gap:.5em;
+    margin-left:5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .buscador input{
@@ -3064,7 +3067,18 @@ width: 10em;
 .titulo-container{
     display:flex;
     align-items: center;
-    gap:10em;
+    gap:38em;
+    margin-bottom: 2em;
+}
+
+.tituloAdmin{
+color: #1F1F1F;
+ font-size: 1.7em;
+ font-family: Raleway;
+ font-weight: 700;
+ letter-spacing: 1.68px;
+ word-wrap: break-word;
+ margin-left:3em;
 }
 
 .addButton{
@@ -3072,6 +3086,60 @@ width: 10em;
     align-items: center;
     gap:.5em;
 }
+
+.addButton p{
+color: #1F1F1F;
+ font-size: 1.1em;
+ font-family: Inter;
+ font-weight: 700;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+
+}
+
+.addButton button{
+    border-color:#FF3333;
+    background-color: #FF3333;
+    color:white;
+    font-size:1.6em;
+    padding-left: .15em;
+    padding-right: .15em;
+    cursor: pointer;
+  
+}
+table{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 2em;
+}
+
+table {
+    border-collapse: separate; /* Asegura que el espaciado sea respetado */
+    border-spacing: 6em .5em; /* 10px de espacio vertical entre filas, 0 de espacio horizontal */
+  }
+
+.productTable td{
+ color: #1F1F1F;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 500;
+ line-height: 60.85px;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+}
+
+
+.titulosTabla th{
+color: #1F1F1F;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 700;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+}
+
+
+
   /*-------------------------------------------Querys-------------------------------------------------*/
   @media screen and (min-width: 768px) and (max-width: 1024px)  {
     /* Estilos para tablets */
