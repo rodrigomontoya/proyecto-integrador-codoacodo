@@ -3137,7 +3137,216 @@ color: #1F1F1F;
  letter-spacing: 0.96px;
  word-wrap: break-word;
 }
+/*-------------------------------------------Seccion-Create-------------------------------------------------*/
+.titulo-create{
+color: #1F1F1F;
+ font-size: 1.7em;
+ font-family: Raleway;
+ font-weight: 700;
+ letter-spacing: 1.68px;
+ word-wrap: break-word;
+ margin-top: 1em;
+ margin-bottom: 1em;
+ margin-left:2em;
+}
 
+.container-create {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    margin-left:2em;
+}
+.container-create label{
+color: black;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 300;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+}
+.container-create select{
+color: #B9B9B9;
+ font-size: .9em;
+ font-family: Inter;
+ font-weight: 500;
+ word-wrap: break-word;
+ margin-left: 1em;
+ width: 12em;
+ height: 2em;
+}
+.categ-lic{
+    display: flex;
+    margin-bottom: 1em;
+    gap:2em;
+}
+.nombre-producto{
+    margin-bottom:1.5em;
+}
+.nombre-producto-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre-producto-container label{
+color: black;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 400;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+}
+.nombre-producto-container input{
+    color: #B9B9B9;
+     font-size: .8em;
+     font-family: Inter;
+     font-weight: 400;
+     letter-spacing: 0.72px;
+     word-wrap: break-word;
+     border: none;
+     outline: none;
+     border-bottom: 2px solid #FF3333;
+}
+
+.nombre-producto-container textarea{
+color: #B9B9B9;
+font-size: .8em;
+font-family: Inter;
+font-weight: 400;
+letter-spacing: 0.72px;
+word-wrap: break-word;
+margin-bottom: 1.2em;
+}
+.desc-container textarea{
+    width:45em;
+    height:10em;
+}
+
+.sku-pre-stock-container{
+    display: flex;
+    gap:2em;
+    margin-bottom: 1.2em;
+}
+
+.sku-pre-stock-container label{
+color: black;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 400;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+
+}
+
+.sku-pre-stock-container input{
+    color: #B9B9B9;
+    font-size: .8em;
+    font-family: Inter;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #FF3333;
+    width:9em;
+}
+
+.sku-pre-stock-container .input-stock {
+    width:3em;
+    
+    
+}
+
+.desc-cuotas-container{
+    display:flex;
+    gap:2em;
+    margin-bottom: 1.2em;
+}
+
+.desc-cuotas-container label{
+color: black;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 400;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+}
+
+.desc-cuotas-container input, .desc-cuotas-container option{
+color: #B9B9B9;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 400;
+ letter-spacing: 0.72px;
+ word-wrap: break-word;
+}
+
+.desc-cuotas-container input{
+    color: #B9B9B9;
+    font-size: .8em;
+    font-family: Inter;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #FF3333;
+    width:3em;
+}
+
+.desc-cuotas-container select{
+    width:20em;
+    height: 2em;
+}
+
+.botones-container{
+    display: flex;
+    gap:4em;
+}
+
+.img-archivo-container{
+    margin-bottom:1.2em;
+}
+.img-archivo-container label{
+color: black;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 400;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+}
+
+.botones-container .agregar-producto{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: .9em;
+    font-weight: 400;
+    line-height: .9em;
+    letter-spacing: 0em;
+    text-align: center;
+    border:2px solid #FF3333;
+    background: #FF3333;
+    padding:.5em;
+    cursor:pointer;
+    white-space: nowrap;
+   }
+
+   .botones-container .limpiar{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: .9em;
+    font-weight: 400;
+    line-height: .9em;
+    letter-spacing: 0em;
+    text-align: center;
+    border:2px solid #FF3333;
+    background: #FF3333;
+    padding:.5em;
+    width: 7em;
+    cursor:pointer;
+    white-space: nowrap;
+   }
+
+   
 
 
   /*-------------------------------------------Querys-------------------------------------------------*/
