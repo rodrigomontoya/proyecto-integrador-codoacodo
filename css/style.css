@@ -3345,8 +3345,30 @@ color: black;
     cursor:pointer;
     white-space: nowrap;
    }
-
-   
+/*-------------------------------------------Seccion-Edit-------------------------------------------------*/
+.titulo-edit {
+color: #1F1F1F;
+ font-size: 1.7em;
+ font-family: Raleway;
+ font-weight: 700;
+ letter-spacing: 1.68px;
+ word-wrap: break-word;
+}
+ .cat-licen-container{
+    display:flex;
+ } 
+ 
+ 
+ .nomb-container{
+    display:flex;
+    flex-direction: column;
+ }
+ .sku-prec-container{
+    display:flex;
+ }
+ .images-container{
+    display:flex;
+ }
 
 
   /*-------------------------------------------Querys-------------------------------------------------*/

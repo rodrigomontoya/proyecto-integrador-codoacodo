@@ -3,44 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Edit</title>
   </head>
   <body>
-    <header>
-      <picture>
-        <img
-          src="/images\branding\logo_light_horizontal.svg"
-          alt="Logo de Empresa"
-        />
-      </picture>
-      <nav>
-        <a href="../shop.html">VER TIENDA</a>
-        <a href="admin.html">ADMIN</a>
-        <a href="login.html">SALIR</a>
-        <!-- averiguar a donde lleva el salir  -->
-      </nav>
+    <header class="encabezado">
+      <article class="logo">
+        <a href="/index.html">
+          <picture>
+            <img
+              src="/images\branding\logo_light_horizontal.svg"
+              alt="Logo de Empresa"
+            />
+          </picture>
+        </a>
+      </article>
+      <article class="barra_navegacion">
+        <nav>
+          <ul class="menu">
+            <li>
+              <a href="/pages\shop.html">VER TIENDA</a>
+            </li>
+            <li>
+              <a class="item-submenu" href="admin.html">ADMIN</a>
+            </li>
+            <li><a class="item-submenu" href="/index.html">SALIR</a></li>
+          </ul>
+        </nav>
+      </article>
     </header>
     <main>
       <section>
         <div>
-          <label>Categoría</label>
-          <select required>
-            <option selected disabled value="">Elegir</option>
-            <option>Figuras</option>
-            <option>Figuras</option>
-            <option>Figuras</option>
-            <!-- no se que opciones colocar-->
-          </select>
+          <h1 class="titulo-edit">EDITAR ITEM</h1>
         </div>
-        <div>
-          <label>Licencia</label>
-          <select required>
-            <option selected disabled value="">Elegir</option>
-            <option>Harry Potter</option>
-            <option>Star Wars</option>
-            <option>Pokemon</option>
-          </select>
-        </div>
+        <article class="cat-licen-container">
+          <div>
+            <label>Categoría</label>
+            <select required>
+              <option selected disabled value="">Elegir</option>
+              <option>Figuras</option>
+              <option>Figuras</option>
+              <option>Figuras</option>
+              <!-- no se que opciones colocar-->
+            </select>
+          </div>
+          <div>
+            <label>Licencia</label>
+            <select required>
+              <option selected disabled value="">Elegir</option>
+              <option>Harry Potter</option>
+              <option>Star Wars</option>
+              <option>Pokemon</option>
+            </select>
+          </div>
+        </article>
+        <article class="nomb-container">
         <div>
           <label>Nombre del Producto</label>
           <input type="text" placeholder="Ingrese el nombre " />
@@ -48,31 +74,36 @@
         <div>
           <textarea placeholder="Descripción del Producto"></textarea>
         </div>
-        <div>
-          <label>SKU</label>
-          <input type="text" placeholder="SSK111AB001 " />
-        </div>
-        <div>
-          <label>Precio</label>
-          <input type="number" placeholder="$ 0.000,00" />
-        </div>
-        <div>
-          <label>Stock</label>
-          <input type="number" placeholder="0 " />
-        </div>
-        <div>
-          <label>Descuentos</label>
-          <input type="number" placeholder="0%" />
-        </div>
-        <div>
-          <label>Cuotas</label>
-          <select required>
-            <option selected disabled value="">Elegir</option>
-            <option>3 cuotas sin interés</option>
-            <option>6 cuotas sin interés</option>
-            <option>12 cuotas sin interés</option>
-          </select>
-        </div>
+      </article>
+        <article class="sku-prec-container">
+          <div>
+            <label>SKU</label>
+            <input type="text" placeholder="SSK111AB001 " />
+          </div>
+          <div>
+            <label>Precio</label>
+            <input type="number" placeholder="$ 0.000,00" />
+          </div>
+          <div>
+            <label>Stock</label>
+            <input type="number" placeholder="0 " />
+          </div>
+        </article>
+        <article class="desc-cuo-container">
+          <div>
+            <label>Descuentos</label>
+            <input type="number" placeholder="0%" />
+          </div>
+          <div>
+            <label>Cuotas</label>
+            <select required>
+              <option selected disabled value="">Elegir</option>
+              <option>3 cuotas sin interés</option>
+              <option>6 cuotas sin interés</option>
+              <option>12 cuotas sin interés</option>
+            </select>
+          </div>
+        </article>
         <div>
           <label>Imágenes</label>
           <input
@@ -83,6 +114,14 @@
             required
           />
         </div>
+        <article class="images-container">
+          <div>
+            <img src="/images\naruto\kakashi_hatake_front.svg" />
+          </div>
+          <div>
+            <img src="/images\naruto\kakashi_hatake_back.svg" />
+          </div>
+        </article>
         <div>
           <button type="submit">Modificar Producto</button>
         </div>
@@ -91,22 +130,21 @@
     <footer>
       <nav>
         <ul>
-          <li><a href="./pages/shop.html">SHOP</a></li>
-          <li><a href="./pages/register.html">REGISTRARSE</a></li>
-          <li><a href="./pages/login.html">LOGIN</a></li>
-          <li><a href="./pages/contact.html">CONTACTO</a></li>
+          <li><a href="/pages/shop.html">SHOP</a></li>
+          <li><a href="/pages/register.html">REGISTRARSE</a></li>
+          <li><a href="/pages/login.html">LOGIN</a></li>
+          <li><a href="/pages/contact.html">CONTACTO</a></li>
         </ul>
-        <picture>
-          <img
-            src="/images\branding\isotype.svg"
-            alt="Isotipo de la marca de FunkoShop"
-          />
-        </picture>
       </nav>
-
-      <section>
-        <p>All rights reserved 2023 - Funkoshop bcopy;</p>
+      <section class="copyright">
+        <p>All rights reserved 2023 - Funkoshop &copy;</p>
       </section>
+      <picture class="footer-logo">
+        <img
+          src="/images\branding\isotype.svg"
+          alt="Isotipo de la marca de FunkoShop"
+        />
+      </picture>
     </footer>
   </body>
 </html>
