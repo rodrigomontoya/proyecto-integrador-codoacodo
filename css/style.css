@@ -3357,7 +3357,14 @@ color: #1F1F1F;
  .cat-licen-container{
     display:flex;
  } 
- 
+ .cat-licen-container label{
+ color: black;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 300;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+ }
  
  .nomb-container{
     display:flex;
