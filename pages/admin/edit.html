@@ -41,7 +41,7 @@
       </article>
     </header>
     <main>
-      <section>
+      <section class="edit-container">
         <div>
           <h1 class="titulo-edit">EDITAR ITEM</h1>
         </div>
@@ -67,26 +67,26 @@
           </div>
         </article>
         <article class="nomb-container">
-        <div>
-          <label>Nombre del Producto</label>
-          <input type="text" placeholder="Ingrese el nombre " />
-        </div>
-        <div>
-          <textarea placeholder="Descripción del Producto"></textarea>
-        </div>
-      </article>
+          <div>
+            <label>Nombre del Producto:</label>
+            <input type="text" placeholder="Ingrese el nombre " />
+          </div>
+          <div class="descrip-container">
+            <textarea placeholder="Descripción del Producto"></textarea>
+          </div>
+        </article>
         <article class="sku-prec-container">
           <div>
-            <label>SKU</label>
+            <label>SKU:</label>
             <input type="text" placeholder="SSK111AB001 " />
           </div>
           <div>
-            <label>Precio</label>
-            <input type="number" placeholder="$ 0.000,00" />
+            <label>Precio:</label>
+            <input class="inp-precio" type="number" placeholder="$ 0.000,00" />
           </div>
           <div>
-            <label>Stock</label>
-            <input type="number" placeholder="0 " />
+            <label>Stock:</label>
+            <input class="inp-stock" type="number" placeholder="0 " />
           </div>
         </article>
         <article class="desc-cuo-container">
@@ -104,7 +104,7 @@
             </select>
           </div>
         </article>
-        <div>
+        <div class="imag-container">
           <label>Imágenes</label>
           <input
             type="file"
@@ -115,14 +115,16 @@
           />
         </div>
         <article class="images-container">
-          <div>
-            <img src="/images\naruto\kakashi_hatake_front.svg" />
+          <div class="container-1">
+            <img  class="img-1" src="/images\naruto\kakashi_hatake_front.svg" />
+            <p>Frente</p>
           </div>
-          <div>
-            <img src="/images\naruto\kakashi_hatake_back.svg" />
+          <div class="container-2">
+            <img  class="img-2 "src="/images\naruto\kakashi_hatake_back.svg" />
+            <p>Dorso</p>
           </div>
         </article>
-        <div>
+        <div class="boton-container">
           <button type="submit">Modificar Producto</button>
         </div>
       </section>

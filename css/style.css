@@ -3085,6 +3085,7 @@ color: #1F1F1F;
     display:flex;
     align-items: center;
     gap:.5em;
+    
 }
 
 .addButton p{
@@ -3094,7 +3095,7 @@ color: #1F1F1F;
  font-weight: 700;
  letter-spacing: 0.96px;
  word-wrap: break-word;
-
+ 
 }
 
 .addButton button{
@@ -3123,7 +3124,7 @@ table {
  font-size: 1em;
  font-family: Inter;
  font-weight: 500;
- line-height: 60.85px;
+ line-height: 60px;
  letter-spacing: 0.96px;
  word-wrap: break-word;
 }
@@ -3346,16 +3347,27 @@ color: black;
     white-space: nowrap;
    }
 /*-------------------------------------------Seccion-Edit-------------------------------------------------*/
+
+.edit-container{
+    margin-left: 4em;
+    display: flex;
+    flex-direction: column;
+    gap:1.5em;
+}
 .titulo-edit {
-color: #1F1F1F;
+ color: #1F1F1F;
  font-size: 1.7em;
  font-family: Raleway;
  font-weight: 700;
  letter-spacing: 1.68px;
  word-wrap: break-word;
+ margin-bottom: 1em;
+ margin-top: 1em;
+ 
 }
  .cat-licen-container{
     display:flex;
+    gap:1.5em;
  } 
  .cat-licen-container label{
  color: black;
@@ -3365,18 +3377,167 @@ color: #1F1F1F;
  letter-spacing: 0.96px;
  word-wrap: break-word;
  }
- 
  .nomb-container{
     display:flex;
     flex-direction: column;
+    gap:1em;
  }
+ .nomb-container label{  
+ color: black;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 400;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+ }
+
+ .nomb-container input{
+    color: #1F1F1F;
+    font-size: .8em;
+    font-family: Inter;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #FF3333;
+ }
+.descrip-container textarea{
+color: #1F1F1F ;
+ font-size: .9em;
+ font-family: Inter;
+ font-weight: 400;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+ width:45em;
+ height:6em;
+}
+
+ 
+.sku-prec-container label{
+color: black;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 400;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+}
+
+.sku-prec-container input{ 
+ color: #111111;
+ font-size: .9em;
+ font-family: Inter;
+ font-weight: 400;
+ letter-spacing: 0.72px;
+ word-wrap: break-word;
+ border: none;
+ outline: none;
+border-bottom: 2px solid #FF3333;
+width:9em;
+}
+
+.sku-prec-container .inp-precio{
+    width: 7em;
+}
+
+.sku-prec-container .inp-stock{
+    width: 3em;
+    text-indent: .5em;
+}
+
+
+.desc-cuo-container{
+    display:flex;
+    gap:1.5em;
+}
+
+.desc-cuo-container label{
+ color: black;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 400;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+}
+
+.desc-cuo-container input{
+ color: #1F1F1F;
+ font-size: .9em;
+ font-family: Inter;
+ font-weight: 400;
+ letter-spacing: 0.72px;
+ word-wrap: break-word;
+ border: none;
+ outline: none;
+border-bottom: 2px solid #FF3333;
+width: 3em;
+text-indent: .5em;
+}
+
+.desc-cuo-container select{
+color: #1F1F1F;
+ font-size: .9em;
+ font-family: Inter;
+ font-weight: 500;
+ word-wrap: break-word;
+}
+.imag-container label {
+color: black;
+ font-size: 1em;
+ font-family: Inter;
+ font-weight: 400;
+ letter-spacing: 0.96px;
+ word-wrap: break-word;
+}
+
+ 
  .sku-prec-container{
     display:flex;
+    gap:1.5em;
  }
  .images-container{
     display:flex;
+    gap:2.5em;
  }
 
+.images-container p{
+color: black;
+ font-size: .9em;
+ font-family: Raleway;
+ font-weight: 500;
+ word-wrap: break-word;
+}
+.images-container .img-1,.images-container .img-2{
+    height:8em;
+    width: 8em;
+}
+.images-container .container-1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;	
+}
+
+.images-container .container-2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boton-container button{
+    color:#ffffff;
+    font-family: Inter;
+    font-size: .8em;
+    font-weight: 400;
+    line-height: .9em;
+    letter-spacing: 0em;
+    text-align: center;
+    border:2px solid #FF3333;
+    background: #FF3333;
+    padding:.8em;
+    width: 11em;
+    cursor:pointer;
+    white-space: nowrap;
+    margin-bottom: 3em;
+}
 
   /*-------------------------------------------Querys-------------------------------------------------*/
   @media screen and (min-width: 768px) and (max-width: 1024px)  {
