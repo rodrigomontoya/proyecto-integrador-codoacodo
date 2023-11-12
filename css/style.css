@@ -1992,7 +1992,7 @@ footer .copyright p{
     margin-right: -.8em;
 }
 
-.cantidad button{
+.cantidad button {
     color: #FFFFFF;
     font-family: Inter;
     font-size: 1em;
@@ -2000,13 +2000,18 @@ footer .copyright p{
     line-height: 1.3em;
     letter-spacing: 0em;
     text-align: left;
-    border: solid #FF3333;
+    border: none;
     background-color:  #FF3333;
     padding:.3em;
     cursor: pointer;
     margin-left:1.8em;
 }
-.modos-pago p{
+
+.cantidad button:hover {
+    background-color:  #1D84B5;
+}
+
+.modos-pago {
     color: #1D84B5;
     font-family: Inter;
     font-size: .9em;
@@ -2015,8 +2020,6 @@ footer .copyright p{
     letter-spacing: 0em;
     text-align: left;
     margin-top:1.3em;
-
-
 }
 
 /*----------------------------------Productos-Relacionados-------------------------*/
